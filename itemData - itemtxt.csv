@@ -1,0 +1,1118 @@
+0,Throwing Kunai,A standard throwing kunai.Flies straight and true.Allows for precise aiming.
+1,<COLOR FF0000>#Rejected#</COLOR> I_0001_Name,<COLOR FF0000>#Rejected#</COLOR> I_0001_Explain
+2,Barrel Bomb,A small time bomb.
+3,Large Barrel Bomb,A powerful bomb triggeredby external physical impact.
+4,Shock Trap,A trap that immobilizesa target. Use it to capturemonsters.
+5,Max Potion,Fully restores health.
+6,Potion,Restores a smallamount of health.
+7,Mega Potion,Restores a moderateamount of health.
+8,Well-done Steak,Food that fully restoresstamina.
+9,Lifepowder,Produces a cloud that healsyou and anyone nearby.
+10,Whetstone,A standard-sized whetstone.Use it to restore a weapon'ssharpness.
+11,<COLOR FF0000>#Rejected#</COLOR> I_0011_Name,<COLOR FF0000>#Rejected#</COLOR> I_0011_Explain
+12,<COLOR FF0000>#Rejected#</COLOR> I_0012_Name,<COLOR FF0000>#Rejected#</COLOR> I_0012_Explain
+13,Antidote,A cure for poison/venom.
+14,Cleanser,Immediately removes any foamor webbing on your body.
+15,Deodorant,"An item that cures Stench,hellfireblight, and blast-blight when thrown down."
+16,<COLOR FF0000>#Rejected#</COLOR> I_0016_Name,<COLOR FF0000>#Rejected#</COLOR> I_0016_Explain
+17,<COLOR FF0000>#Rejected#</COLOR> I_0017_Name,<COLOR FF0000>#Rejected#</COLOR> I_0017_Explain
+18,BBQ Spit,Just what you need to cookmeat. A must-have item forany hungry hunter.
+19,<COLOR FF0000>#Rejected#</COLOR> I_0019_Name,<COLOR FF0000>#Rejected#</COLOR> I_0019_Explain
+20,<COLOR FF0000>#Rejected#</COLOR> I_0020_Name,<COLOR FF0000>#Rejected#</COLOR> I_0020_Explain
+21,<COLOR FF0000>#Rejected#</COLOR> I_0021_Name,<COLOR FF0000>#Rejected#</COLOR> I_0021_Explain
+22,<COLOR FF0000>#Rejected#</COLOR> I_0022_Name,<COLOR FF0000>#Rejected#</COLOR> I_0022_Explain
+23,Empty Phial,"A regular old empty phial.Nothing more, nothing less."
+24,Small Barrel,"A small, empty barrel."
+25,Large Barrel,"A large, empty barrel.Combine with gunpowderto make it into a bomb."
+26,Trap Tool,A must-have item for puttingtogether pitfall traps andother kinds of traps.
+27,Powercharm,An amulet that strengthensattacks. Just carrying thisgives you demonic strength.
+28,Armorcharm,An amulet that increasesdefense. Just carrying thismakes your skin stone hard.
+29,Normal Ammo 1,Ammo for novices.Doesn't pack much oomph.Unlimited shots.
+30,Normal Ammo 2,Non-specialized ammo.More powerful thanNormal Ammo 1.
+31,Normal Ammo 3,"High-quality gunpowderammo. Single-shot, butfast and impactful."
+32,Pierce Ammo 1,Armor-piercing ammothat deals multiple hitsto some monsters.
+33,Pierce Ammo 2,High-grade armor-piercingammo. Deals more hitsthan Pierce Ammo 1.
+34,Pierce Ammo 3,Max-gradearmor-piercing ammo.Deals numerous hits.
+35,Spread Ammo 1,"Ammo made for close combat.What it lacks in range, itmakes up for in damage."
+36,Spread Ammo 2,Ammo made for closecombat. Deals more hitsthan Spread Ammo 1.
+37,Spread Ammo 3,Max-grade ammo madefor close combat. Dealsnumerous hits.
+38,Sticky Ammo 1,Powerful pierce and burstammo. Headshots may stun.
+39,Sticky Ammo 2,Very powerful pierce andburst ammo. Headshotsmay stun.
+40,Cluster Bomb 1,Ammo that fragments intothree shells upon impact.Beware of friendly fire!
+41,Cluster Bomb 2,Ammo that fragments intofour shells upon impact.Beware of friendly fire!
+42,Poison Ammo 1,"Poisons target, but mayrequire several shots."
+43,Poison Ammo 2,Enhanced ammo that inflictspoison. Some targetsrequire multiple shots.
+44,Paralysis Ammo 1,"Paralyzes target, but mayrequire several shots."
+45,Paralysis Ammo 2,Enhanced ammo that inflictsparalysis. Some targetsrequire multiple shots.
+46,Sleep Ammo 1,"Induces sleep, but mayrequire several shots."
+47,Sleep Ammo 2,Enhanced ammo thatinflicts sleep. Some targetsrequire multiple shots.
+48,Exhaust Ammo 1,Ammo that drainsa monster's stamina.
+49,Exhaust Ammo 2,Enhanced special ammothat drains a monster'sstamina.
+50,Recover Ammo 1,Ammo that restores asmall amount of healthto an ally upon impact.
+51,Flaming Ammo,Ammo that packs apunch against monstersweak to fire element.
+52,Water Ammo,Ammo that packs apunch against monstersweak to water element.
+53,Thunder Ammo,Ammo that packs apunch against monstersweak to thunder element.
+54,Freeze Ammo,Ammo that packs apunch against monstersweak to ice element.
+55,Slicing Ammo,"Ammo that ejects sharpblades on impact, whichcan sever tails."
+56,Wyvern Ammo,Ammo created throughyears of research intoWyvern's Fire.
+57,Tranq Ammo,Bowgun ammo usedto capture monstersensnared in traps.
+58,Power Coating,An arrow coating thatincreases the attackpower of arrows.
+59,<COLOR FF0000>#Rejected#</COLOR> I_0059_Name,<COLOR FF0000>#Rejected#</COLOR> I_0059_Explain
+60,Poison Coating,An arrow coating thatapplies poison effectsto arrows.
+61,Para Coating,An arrow coating thatapplies paralysis effectsto arrows.
+62,Sleep Coating,An arrow coating thatapplies sleep effectsto arrows.
+63,Blast Coating,An arrow coating thatapplies explosive powderto arrows.
+64,Close-range Coating,"Arrows that deal more damageto close targets, butreduces maximum range."
+65,Exhaust Coating,An arrow coating thatapplies a fatigue-inducingfluid to arrows.
+66,<COLOR FF0000>#Rejected#</COLOR> I_0066_Name,<COLOR FF0000>#Rejected#</COLOR> I_0066_Explain
+67,<COLOR FF0000>#Rejected#</COLOR> I_0067_Name,<COLOR FF0000>#Rejected#</COLOR> I_0067_Explain
+68,<COLOR FF0000>#Rejected#</COLOR> I_0068_Name,<COLOR FF0000>#Rejected#</COLOR> I_0068_Explain
+69,<COLOR FF0000>#Rejected#</COLOR> I_0069_Name,<COLOR FF0000>#Rejected#</COLOR> I_0069_Explain
+70,<COLOR FF0000>#Rejected#</COLOR> I_0070_Name,<COLOR FF0000>#Rejected#</COLOR> I_0070_Explain
+71,<COLOR FF0000>#Rejected#</COLOR> I_0071_Name,<COLOR FF0000>#Rejected#</COLOR> I_0071_Explain
+72,<COLOR FF0000>#Rejected#</COLOR> I_0072_Name,<COLOR FF0000>#Rejected#</COLOR> I_0072_Explain
+73,<COLOR FF0000>#Rejected#</COLOR> I_0073_Name,<COLOR FF0000>#Rejected#</COLOR> I_0073_Explain
+74,<COLOR FF0000>#Rejected#</COLOR> I_0074_Name,<COLOR FF0000>#Rejected#</COLOR> I_0074_Explain
+75,<COLOR FF0000>#Rejected#</COLOR> I_0075_Name,<COLOR FF0000>#Rejected#</COLOR> I_0075_Explain
+76,<COLOR FF0000>#Rejected#</COLOR> I_0076_Name,<COLOR FF0000>#Rejected#</COLOR> I_0076_Explain
+77,<COLOR FF0000>#Rejected#</COLOR> I_0077_Name,<COLOR FF0000>#Rejected#</COLOR> I_0077_Explain
+78,<COLOR FF0000>#Rejected#</COLOR> I_0078_Name,<COLOR FF0000>#Rejected#</COLOR> I_0078_Explain
+79,<COLOR FF0000>#Rejected#</COLOR> I_0079_Name,<COLOR FF0000>#Rejected#</COLOR> I_0079_Explain
+80,<COLOR FF0000>#Rejected#</COLOR> I_0080_Name,<COLOR FF0000>#Rejected#</COLOR> I_0080_Explain
+81,<COLOR FF0000>#Rejected#</COLOR> I_0081_Name,<COLOR FF0000>#Rejected#</COLOR> I_0081_Explain
+82,<COLOR FF0000>#Rejected#</COLOR> I_0082_Name,<COLOR FF0000>#Rejected#</COLOR> I_0082_Explain
+83,<COLOR FF0000>#Rejected#</COLOR> I_0083_Name,<COLOR FF0000>#Rejected#</COLOR> I_0083_Explain
+84,<COLOR FF0000>#Rejected#</COLOR> I_0084_Name,<COLOR FF0000>#Rejected#</COLOR> I_0084_Explain
+85,<COLOR FF0000>#Rejected#</COLOR> I_0085_Name,<COLOR FF0000>#Rejected#</COLOR> I_0085_Explain
+86,<COLOR FF0000>#Rejected#</COLOR> I_0086_Name,<COLOR FF0000>#Rejected#</COLOR> I_0086_Explain
+87,<COLOR FF0000>#Rejected#</COLOR> I_0087_Name,<COLOR FF0000>#Rejected#</COLOR> I_0087_Explain
+88,<COLOR FF0000>#Rejected#</COLOR> I_0088_Name,<COLOR FF0000>#Rejected#</COLOR> I_0088_Explain
+89,<COLOR FF0000>#Rejected#</COLOR> I_0089_Name,<COLOR FF0000>#Rejected#</COLOR> I_0089_Explain
+90,<COLOR FF0000>#Rejected#</COLOR> I_0090_Name,<COLOR FF0000>#Rejected#</COLOR> I_0090_Explain
+91,Lottery Ticket,This ticket can be redeemedfor a free turn at the lotteryduring Kagero's sales.
+92,Rathian Scale,Scales of a Rathian. Theirdark emerald hue exudesa feminine grace.
+93,Rathian Shell,"A shell piece comprised oflayered scales, making itmuch harder than just one."
+94,Rathian Webbing,This heat-resistantmaterial is oftenused as armor lining.
+95,Rathian Spike,Needle-like hair found ona Rathian's back and wings.They contain poison.
+96,Rathian Plate,A searing tail scale. Hardto come by and as fiery asthe wyvern it came from.
+97,Rathalos Scale,A Rathalos scale. Wyvernscales like this one arefundamental materials.
+98,Rathalos Shell,"A shell piece comprised oflayered scales, making itmuch harder than just one."
+99,Rathalos Webbing,This heat-resistantmaterial is oftenused as armor lining.
+100,Rathalos Plate,A searing tail scale. Hardto come by and as fiery asthe wyvern it came from.
+101,Rath Marrow,Recent advances allow thismarrow to be extracted. Itignites on air contact.
+102,Flame Sac,A monster organ filled withflammable powder. Handlewith extreme care.
+103,Zinogre Shell,A blue-green shell whichstores electricity and worksas a protective insulator.
+104,Zinogre Shockfur,"White fur that stores andmagnifies electricity, whichit holds even after carving."
+105,Zinogre Claw,A sharp and tremendouslypowerful claw capable ofquickly dicing up prey.
+106,Zinogre Shocker,The ocher shell that oncelined a Zinogre's body.Contains conductive lipids.
+107,Zinogre Plate,A rare and intimidatingtrophy that seems to pulsewith residual fury.
+108,Mizutsune Scale,A transparent Mizutsune scale.Its irregular shape refractslight into many bright colors.
+109,Mizutsune Purplefur,"The purple fur of a Mizutsune.Stiff, but is soft as silk whensoaked with bubblefoam."
+110,Mizutsune Claw,"A claw that flies freelythrough bubblefoam, allowingit to be used as a spike."
+111,Bubblefoam,Fluid secreted by Mizutsune.Just a few drops can turn aswamp into a bubble bath.
+112,Mizutsune Plate,An ancient scale as old asits former owner. Can evencreate rainbows from light.
+113,Aknosom Scale,An Aknosom scale that glowswith a stunning ivory light.A popular material.
+114,Aknosom Feather,Feathered Aknosom scaletreasured for its use inumbrellas. Sturdy yet light.
+115,Aknosom Crest,An Aknosom comb. The eyeballmotif on the forehead showsup in many a ghost story.
+116,Tetranadon Hide,"Made from Tetranadon belly,it's very stretchy. Now youcan eat as much as you want!"
+117,Tetra Carapace,"This shell's mossy surfaceacts as a cushion, making itsturdier than it looks."
+118,Tetranadon Beak,You can store up water inthis Tetranadon beak. Greatfor gear that uses water.
+119,Almudron Scale,Highly water-repellentAlmudron scale. Allows forunhindered bog traversal.
+120,Almudron Shell,Overlapping scales fusedwith mud and Almudron mucusto form an outer shell.
+121,Almudron Claw,Almudron claws thatexcel at speedy digging.Dirt fears them.
+122,Raw Meat,Meat carved from a monster.You might catch a certainFlooded Forest fish with it.
+123,Pitfall Trap,A trap for catching certainlarge monsters. It istripped by a heavy weight.
+124,Dango Ticket,"A ticket for dango fullof carefully selected,special ingredients."
+125,Honey,Highly nutritious honey.Combine with potions to makethe more potent mega potion.
+126,Blue Mushroom,A mushroom infused withpower-enhancing effects.Used in restorative items.
+127,Godbug,An insect said to live a millennium.Combine it with other items to addtheir properties to the powder.
+128,Herb,A primary ingredientin potions.
+129,Nulberry,Mysterious berry that curesblights and resistance down.
+130,Latchberry,A nut that bears a spiralgroove. Used to makePierce Ammo.
+131,Iron Ore,Ore that can be smeltedinto metal and used formany different purposes.
+132,Earth Crystal,Crystallized microbes whichare prized as an abrasivewhen forging weapons.
+133,Machalite Ore,An ore that yields bettermetals than iron ore.Used to make machalite.
+134,Dragonite Ore,An ore that yields metalsuperior to that ofmachalite—rare and valuable.
+135,Unique Mushroom,A pinky-sized shroom valuedfor its unusual aroma.<COL YEL>(Account Item)</COL>
+136,Choice Mushroom,The perfect shape and aroma.Even better than a uniquemushroom. <COL YEL>(Account Item)</COL>
+137,Energy Drink,"A Guild-approved beveragethat boosts your stamina.Helps shake off sleep, too!"
+138,Shrapnel Ammo 1,Ammo that covers a widearea. Who needs accuracywhen you hit this much?
+139,Shrapnel Ammo 2,Ammo that covers a wide area.More range and even more hitsthan Shrapnel Ammo 1.
+140,Shrapnel Ammo 3,Max-grade shrapnel ammo thatdelivers maximum range andhit-count over a wide area.
+141,Anjanath Pelt,This Anjanath fur is usedby local firefighters for itsfire-resistant properties.
+142,Anjanath Scale,"Tempered by the heat of anAnjanath, this scale repelsany ordinary blade."
+143,Anjanath Fang,Fang shaped by the extremepressure and heat of anAnjanath's mouth.
+144,Anjanath Nosebone,Nasal bone of an Anjanath.Its characteristic structureis a hot research topic.
+145,Anjanath Tail,"This Anjanath tail can beused in weapons, but it'salso a local delicacy."
+146,Anjanath Plate,"Rare, roiled Anjanathplating, produced by thebeast's persistent rage."
+147,<COLOR FF0000>#Rejected#</COLOR> I_0147_Name,<COLOR FF0000>#Rejected#</COLOR> I_0147_Explain
+148,<COLOR FF0000>#Rejected#</COLOR> I_0148_Name,<COLOR FF0000>#Rejected#</COLOR> I_0148_Explain
+149,Armor Sphere,Reacts uniquely to heat.Fuse this to armor toimprove it by a tiny amount.
+150,Armor Sphere+,Reacts uniquely to heat.Fuse this to armor toimprove it by a small amount.
+151,Advanced Armor Sphere,Reacts uniquely to heat.Fuse this to armor toimprove it.
+152,Sticky Ammo 3,Powerful pierce and burstammo. Headshots stun.
+153,Cluster Bomb 3,Ammo that fragments intofive shells upon impact.Beware of friendly fire!
+154,Recover Ammo 2,Ammo that restores amoderate amount of healthto an ally upon impact.
+155,Demon Ammo,Ammo that fills the targetwith savage amountsof strength.
+156,Armor Ammo,Ammo that makes thetarget's skin as hardas stone.
+157,Piercing Fire Ammo,Piercing ammo that dischargesmultiple heavy-hittingfire-element shots.
+158,Piercing Water Ammo,Piercing ammo that dischargesmultiple heavy-hittingwater-element shots.
+159,Piercing Ice Ammo,Piercing ammo that dischargesmultiple heavy-hittingice-element shots.
+160,Piercing Thunder Ammo,Piercing ammo that dischargesmultiple heavy-hittingthunder-element shots.
+161,Dragon Ammo,Ammo that packs a punchagainst monsters weak todragon element.
+162,Piercing Dragon Ammo,Piercing ammo that dischargesmultiple heavy-hittingdragon-element shots.
+163,Flash Bomb,Flashes brightly on impact.Toss this right under amonster's nose to blind it.
+164,Old Message,An old message. Holdshistorical value and isthus sought by Kagero.
+165,Aknosom Beak,Aknosom beak that appearsto be wearing lipstick. Usedin arts and crafts.
+166,Tetranadon Disc,Disc-shaped bone thatprotects a Tetranadon'smoisturizing organ from foes.
+167,Somnacanth Scale,Somnacanth scale thatglistens a brilliant yellowdue to its watery coating.
+168,Somnacanth Shell,A spiked Somnacanth carapacebuilt for protection andcutting through water.
+169,Somnacanth Talon,"A talon with a long, hookedshape that's great forweapons, but also farm work!"
+170,Somnacanth Fin,A Somnacanth head-fin. Asbeautiful as the midnightsea. Careful with the barbs!
+171,Somnacanth Dust,A glimmering blue powdershot from a Somnacanth'sneck. Makes you feel sleepy.
+172,Magnamalo Scale,Sturdy and small Magnamaloscale that is flexible andresistant to fangs.
+173,Magnamalo Shell,An armor-like carapace fromMagnamalo. Won't budge toany run-of-the-mill strikes.
+174,Magnamalo Blade,Talon that has grown into ablade shape on Magnamalo'sforearm. Already very sharp.
+175,Magnamalo Tail,Magnamalo's bladed tail.Used to pierce through theguts of unsuspecting prey.
+176,Magnamalo Horn,Majestic Magnamalo horn thatechoes with the sorrow ofwarriors slain.
+177,Magnamalo Scute,Bladed hide of Magnamalo'sback. Its edge is nickedfrom countless battles.
+178,Magna Ghostprism,A gaseous crystal that emitsflammable gas resemblingdancing purple flames.
+179,Magnamalo Plate,"Rare Magnamalo scale.Glows with a deep purple,all-consuming menace."
+180,Golden Muck,Mud mixed with Almudronmucus. Prized for itsviscosity and sumptuous hue.
+181,Almudron Fin,Red tuft of Almudron hair.Covered in a viscous fluidsecreted from its pores.
+182,Almudron Tail,An impressive Almudron tail.Its willow-esque droop opensup opportunities to strike.
+183,Almudron Whisker,These crimson Almudronwhiskers sense vibrationsto help locate prey.
+184,Almudron Plate,"Rare Almudron scale.As you stare into its grayhue, you feel sucked in."
+185,Goss Harag Fur,"This Goss hair repels snowand keeps heat in, makingit popular for winter wear."
+186,Goss Harag Hide,The Goss Harag's warm bodyand the cold outside airhave tempered this hide.
+187,Goss Harag Brace,Ice and snow have built upon this arm carapace untilit could work as a weapon.
+188,Goss Harag Horn,"Lumpy blue horns of a GossHarag. For some reason, theytend to scare children."
+189,Goss Harag Claw,"Goss Harag claws. They grownot only from its toes,but also all over its feet!"
+190,Block of Ice,"The Goss Harag melts snow onits body, forming this iceclump on its legs at will."
+191,Goss Harag Bile,A Goss Harag gallbladderonce prized as a panacea.Good luck getting it out...
+192,<COLOR FF0000>#Rejected#</COLOR> I_0192_Name,<COLOR FF0000>#Rejected#</COLOR> I_0192_Explain
+193,<COLOR FF0000>#Rejected#</COLOR> I_0193_Name,<COLOR FF0000>#Rejected#</COLOR> I_0193_Explain
+194,<COLOR FF0000>#Rejected#</COLOR> I_0194_Name,<COLOR FF0000>#Rejected#</COLOR> I_0194_Explain
+195,<COLOR FF0000>#Rejected#</COLOR> I_0195_Name,<COLOR FF0000>#Rejected#</COLOR> I_0195_Explain
+196,<COLOR FF0000>#Rejected#</COLOR> I_0196_Name,<COLOR FF0000>#Rejected#</COLOR> I_0196_Explain
+197,<COLOR FF0000>#Rejected#</COLOR> I_0197_Name,<COLOR FF0000>#Rejected#</COLOR> I_0197_Explain
+198,<COLOR FF0000>#Rejected#</COLOR> I_0198_Name,<COLOR FF0000>#Rejected#</COLOR> I_0198_Explain
+199,<COLOR FF0000>#Rejected#</COLOR> I_0199_Name,<COLOR FF0000>#Rejected#</COLOR> I_0199_Explain
+200,<COLOR FF0000>#Rejected#</COLOR> I_0200_Name,<COLOR FF0000>#Rejected#</COLOR> I_0200_Explain
+201,<COLOR FF0000>#Rejected#</COLOR> I_0201_Name,<COLOR FF0000>#Rejected#</COLOR> I_0201_Explain
+202,<COLOR FF0000>#Rejected#</COLOR> I_0202_Name,<COLOR FF0000>#Rejected#</COLOR> I_0202_Explain
+203,<COLOR FF0000>#Rejected#</COLOR> I_0203_Name,<COLOR FF0000>#Rejected#</COLOR> I_0203_Explain
+204,<COLOR FF0000>#Rejected#</COLOR> I_0204_Name,<COLOR FF0000>#Rejected#</COLOR> I_0204_Explain
+205,<COLOR FF0000>#Rejected#</COLOR> I_0205_Name,<COLOR FF0000>#Rejected#</COLOR> I_0205_Explain
+206,<COLOR FF0000>#Rejected#</COLOR> I_0206_Name,<COLOR FF0000>#Rejected#</COLOR> I_0206_Explain
+207,<COLOR FF0000>#Rejected#</COLOR> I_0207_Name,<COLOR FF0000>#Rejected#</COLOR> I_0207_Explain
+208,<COLOR FF0000>#Rejected#</COLOR> I_0208_Name,<COLOR FF0000>#Rejected#</COLOR> I_0208_Explain
+209,<COLOR FF0000>#Rejected#</COLOR> I_0209_Name,<COLOR FF0000>#Rejected#</COLOR> I_0209_Explain
+210,<COLOR FF0000>#Rejected#</COLOR> I_0210_Name,<COLOR FF0000>#Rejected#</COLOR> I_0210_Explain
+211,<COLOR FF0000>#Rejected#</COLOR> I_0211_Name,<COLOR FF0000>#Rejected#</COLOR> I_0211_Explain
+212,<COLOR FF0000>#Rejected#</COLOR> I_0212_Name,<COLOR FF0000>#Rejected#</COLOR> I_0212_Explain
+213,<COLOR FF0000>#Rejected#</COLOR> I_0213_Name,<COLOR FF0000>#Rejected#</COLOR> I_0213_Explain
+214,<COLOR FF0000>#Rejected#</COLOR> I_0214_Name,<COLOR FF0000>#Rejected#</COLOR> I_0214_Explain
+215,<COLOR FF0000>#Rejected#</COLOR> I_0215_Name,<COLOR FF0000>#Rejected#</COLOR> I_0215_Explain
+216,<COLOR FF0000>#Rejected#</COLOR> I_0216_Name,<COLOR FF0000>#Rejected#</COLOR> I_0216_Explain
+217,Arzuros Pelt,"An Arzuros pelt. The whiteportion is soft, while theblue is short and taut."
+218,Arzuros Pelt+,A splendid Arzuros pelt.Sturdy enough to survive inharsh mountainous terrain.
+219,Arzuros Shell,Shell from an Arzuros's heador back. Bends willinglyand is easy to forge.
+220,Arzuros Carapace,A quality Arzuros carapace.The thick shell can endurebites from ordinary fangs.
+221,Arzuros Brace,A brace from an Arzuros'sforelegs. Its sharp points giveforged equipment a wild flavor.
+222,Arzuros Brace+,A strong Arzuros brace.Its thorn-like protrusionsmake paw swipes deadly.
+223,Great Baggi Hide,"Hide from a Great Baggi.Despite how tough it is,it's covered in old scars."
+224,Great Baggi Hide+,Quality Great Baggi hide.You'd be hard pressed tohurt a Baggi this tough.
+225,Great Baggi Claw,A robust Great Baggi claw.It's thicker than a regularold Baggi claw.
+226,Great Baggi Claw+,"A quality Great Baggi Claw.Sharpened by battle, it'sperfect for weapons."
+227,Lagombi Pelt,A white pelt carved from aLagombi. One pat and you'llbe hooked on its fluffy fur.
+228,Lagombi Pelt+,Quality white Lagombi pelt.Its frosty shine makes ita sought-after luxury item.
+229,Lagombi Ear,The long ear of a Lagombi.A lifetime in the cold hasmade it hard as a shell.
+230,Lagombi Ear+,"An impressive Lagombi ear.Highly developed, it can besharp as steel if polished."
+231,Lagombi Plastron,Shell piece from a Lagombi'sbelly. Its ridges allow theLagombi to slide on ice.
+232,Lagombi Plastron+,"A strong, sticky, and thickLagombi Plastron. Usedto make superior equipment."
+233,Lagombi Iceclaw,A Lagombi claw that's coldto the touch. Permanentlycovered in ice.
+234,Lagombi Frozenclaw,A Lagombi claw surrounded bycold air. Wounds it causesfreeze over in an instant.
+235,Flabby Hide,Now useable as a materialthanks to recent advances.Has mysterious properties.
+236,Pearl Hide,The hide of a Khezu.Its strange properties arestill not fully understood.
+237,Pale Extract,Has the ability to amplifythe effects of certainmedicines.
+238,Pale Bone,The rib bone from a Khezu.Still has chunks of meatattached.
+239,Pale Steak,"Fatty meat from aKhezu. Looks tasty,but cannot be eaten."
+240,Barroth Shell,"Shell from a Barroth. It'spretty muddy, but that'swhy it's so strong."
+241,Barroth Carapace,"A Barroth's carapace coatedin multiple layers of mud,making it quite rigid."
+242,Barroth Ridge,"Plate taken from a Barroth'sback. Fairly rare, but makesfor quality material."
+243,Barroth Ridge+,"A thick, sturdy part of a Barrothbackplate. Mud and sunlighthave helped to harden it further."
+244,Barroth Claw,"A Barroth claw. It's nottoo sharp, but can be usedto strengthen many things."
+245,Barroth Claw+,A polished claw sharpened bysand and dirt. It can dig througheven the toughest earth.
+246,Barroth Scalp,This durable part of aBarroth's skull is also thehardest to remove.
+247,Barroth Tail,"Barroth tails aren't veryvaluable, but the meat ishailed as a delicacy."
+248,Fertile Mud,Mud that Barroth roll aroundin. Nutrient-rich and greatfor farming.
+249,Great Wroggi Hide,Hide from a Great Wroggi.The white-on-orange patternalmost looks dyed.
+250,Great Wroggi Hide+,Quality Great Wroggi hide.The colors would look greaton an expert's weapon.
+251,Great Wroggi Brace,"A brace from a Great Wroggi.Covered in scales, it alsoincludes claws and plate."
+252,Great Wroggi Brace+,A tough Great Wroggi bracecomprised of high-qualityplate and claws.
+253,King's Beak,A beak from a Great Wroggi.Careful with it—it's still poisonous!
+254,Spongy Hide,Spongin from a Royal Ludroth'smane. Valued for its elasticityand high water retention.
+255,Spongy Hide+,High-grade elastic hide thatboasts a remarkable abilityto retain water.
+256,Royal Ludroth Scale,A small scale that enablesgraceful movement. You needseveral to forge equipment.
+257,Royal Ludroth Scale+,"A large, strong scale froma Royal Ludroth. It reflectslight in every direction."
+258,Royal Ludroth Claw,A claw from a Royal Ludroth.Adapted better to movementthan to attacking.
+259,Royal Ludroth Claw+,"A sharp, pointed Royal Ludrothclaw. It plunges deep into theearth with each step taken."
+260,Royal Ludroth Crest,These crests become rigidwhen the beast is angry;quantity indicates status.
+261,Royal Ludroth Crest+,"A proud, strong crest befittinga pack leader. Its sharp hornsshine magnificently."
+262,Royal Ludroth Tail,"The finned tail of a RoyalLudroth, used by fishermenfor their boats."
+263,Barioth Shell,White shell from aBarioth. It's strong yetincredibly light.
+264,Barioth Carapace,A Barioth carapace with animpressive shine. Stronglyresembles an ice floe.
+265,Barioth Pelt,A white pelt that's soft tothe touch. Absorbs impactalmost as well as a Barioth.
+266,Barioth Pelt+,A high-quality white pelt witha lovely texture. Nobles useit as a symbol of authority.
+267,Barioth Claw,A deceptively sharp Bariothclaw that can carve throughthick glaciers.
+268,Barioth Claw+,A claw honed in the harsh Tundraenvironment. It can take downprey with a single swipe.
+269,Barioth Spike,"These come in many sizes,and assist the Barioth inclinging to walls of ice."
+270,Barioth Tail,"Barioth tails are covered inhard plate, and surprisinglytough to sever."
+271,Amber Fang,"A fang from a Barioth. Canbe used for weapons, butalso for decoration."
+272,Amber Fang+,Amber tusks sharpened bycountless kills. Can smashthrough gigantic ice blocks.
+273,Volvidon Shell,The heat-resistant shell ofa Volvidon. Unaffected evenby boiling lava.
+274,Volvi Carapace,A thick Volvidon carapace.The elasticity means forgingit requires severe pressure.
+275,Volvidon Claw,A claw from a Volvidon'sforeleg. Dramatically raisesthe power of a wide swing.
+276,Volvidon Claw+,"A hard, sharp Volvidon claw.Constant exposure to heathas tempered it like steel."
+277,Volvi Rickrack,The jagged shell of a Volvidon'sback. Its high elasticity makes itideal for crafting flexible gear.
+278,Basarios Shell,Rock-hard Basariosshell. Can be usedto refine metals.
+279,Basarios Carapace,A rigid Basarios shell. Theamount of ore in it makes itcloser to rock than shell.
+280,Basarios Wing,The wing of a Basarios.Very hard to work asa material.
+281,Basarios Tears,Faintly pink gems foundnear the tear ductsof a Basarios.
+282,Nargacuga Scale,A scale from a Nargacuga.The surface is covered withthe beast's black fur.
+283,Nargacuga Scale+,"A black Nargacuga scale.Despite its hardness, it'ssurprisingly light and smooth."
+284,Nargacuga Blackfur,Black fur that grows onscales. Covers the animalin jet-black darkness.
+285,Nargacuga Pelt+,Pitch-black fur from aNargacuga. It absorbs lightand emits pure darkness.
+286,Nargacuga Tail,A Nargacuga's impressive tail.Might be mistaken for a weaponif seen out of context.
+287,Narga Tailspike,A spiky scale from a Nargacugatail. It stands up when thebeast is enraged.
+288,Nargacuga Cutwing,Blade-like Nargacuga wing.Evolved to cut down preyon the fly.
+289,Narga Razor,"The large, sharp bladewingof a Nargacuga. It can slicethrough foes in a flash."
+290,Nargacuga Fang,"Although small, the jaggedplacement of these fangsaids their cutting ability."
+291,Nargacuga Fang+,A Nargacuga's terribly sharpfang. Evolved to tear ratherthan chew.
+292,Nargacuga Marrow,Marrow as nimble as theNargacuga itself; requirestalent to properly harvest.
+293,Narga Medulla,"A Nargacuga's medulla. Merelytouching it causes extreme pain,making crafting quite difficult."
+294,Rathian Scale+,"A superior Rathian scale.Looks like a normal Rathianscale, but is much harder."
+295,Rathian Carapace,Rathian shell prized for itslavish green coloration. Anexcellent armor material.
+296,Rathian Spike+,As sharp as the keenestblade. It is longer andsturdier than other spikes.
+297,Rathian Ruby,"A rare, precious gem frominside a wyvern. Almosttoo nice to use."
+298,Zinogre Carapace,The carapace of a Zinogre.Its magnificence reveals thefutility of facing it.
+299,Zinogre Electrofur,Zinogre fur said to storelots of electricity. Shineswhite from the charge.
+300,Zinogre Horn+,"A pointed Zinogre horn. Whencarved, it grants equipmentincomparable power."
+301,Zinogre Claw+,A high voltage Zinogreclaw. Its electrifiedattacks are truly brutal.
+302,Zinogre Shocker+,An electrically chargedZinogre shell. Grants athunder god's power to gear.
+303,Zinogre Jasper,A rare gem sometimes producedinside a Zinogre's body. Thebeast's power swells within.
+304,Mizutsune Scale+,A quality Mizutsune scale.Older scales polished overtime can be very valuable.
+305,Mizutsune Purplefur+,High-quality purple fur.More foam-absorbent thanits lighter counterpart.
+306,Mizutsune Claw+,Friction-reducing bubblefoamhelps this deadly claw slicethrough prey like sushi.
+307,Mizutsune Fin+,A high-quality fin. Bubble-foam gives it an elegantpattern prettier than dye.
+308,Bubblefoam+,The top layer of Mizutsunefluid. Removes impuritiesand is used in many rituals.
+309,Mizutsune Water Orb,A multicolored orb formedfrom a crystalized Mizutsunescale and bubblefoam.
+310,Rathalos Scale+,An extraordinarily durablescale carved from the bodyof a Rathalos.
+311,Rathalos Carapace,This Rathalos shell emanatesa nobility befittingthe ruler of the skies.
+312,Rathalos Wing,A wing from a Rathalos.Skilled artisans can craftit into strong equipment.
+313,Rathalos Ruby,"A rare, precious gem frominside a wyvern. Almosttoo nice to use."
+314,Twisted Horn,A twisted Diablos horn.Used in this region for many(less twisted) purposes.
+315,Majestic Horn,A twisted Diablos horn ingreat shape. Use it to makemore powerful weapons.
+316,Diablos Shell,"Shell from a Diablos. It'sincredibly dense, and muchheavier than it looks."
+317,Diablos Carapace,"A quality Diablos carapace,buffed and hardened byconstant exposure to sand."
+318,Diablos Ridge,A rigid Diablos backplate.Can be carved into fine gearwith the right knife skills.
+319,Diablos Ridge+,"A particularly thick, hardDiablos carapace. Sturdy,but a pain to carve off."
+320,Diablos Tailcase,An armored tailcase thatputs iron hammers to shame.This material is a keeper.
+321,Diablos Fang,"A large, sturdy fang used ineverything from weaponsto ornaments."
+322,Diablos Marrow,Diablos bone marrow.Recently discovered to havesuperb binding properties.
+323,Diablos Medulla,"A rare medulla. Difficultto remove, but of greatinterest to researchers."
+324,Tigrex Scale,Scale from the incrediblyviolent Tigrex. Incrediblymassive and sturdy.
+325,Tigrex Scale+,A flawless Tigrex scale. Canbe fastened with others tobecome harder than steel.
+326,Tigrex Shell,A hard Tigrex shellcapable of repelling anyimpact. Extreme tenacity.
+327,Tigrex Carapace,A material hardened by thesands of time. Sharp edgesshow the Tigrex's ferocity.
+328,Tigrex Tail,This flexible and strongtail can make greatequipment.
+329,Tigrex Claw,A vicious foreclaw unique tothe Tigrex. Known for itsinsidious biting edge.
+330,Tigrex Claw+,A claw that time hassharpened into a horribledeath sentence for prey.
+331,Tigrex Fang,A terrifying fang used tocrush prey. Makes all whosee it quiver in fear.
+332,Tigrex Fang+,The sharp fang of aTigrex. These fangs cancut any prey to shreds.
+333,Tigrex Scalp,"Part of the head of aTigrex. Looks terrifying, asif it is still alive."
+334,Tigrex Maw,"The awe-inspiring jaws ofa Tigrex, ready to crushboth bone and spirit."
+335,Rajang Horn+,The majestic golden horn ofa Rajang. Hunters yearn forthe heroism it represents.
+336,Rajang Fang+,This sharpened fang cancut through anything dumbenough to touch it.
+337,Rajang Blackfur,"Black Rajang fur. Whencrafted, the resulting clothis desired even by royalty."
+338,Rajang Claw+,A sharp Rajang claw.Difficult to carve andmore difficult to craft.
+339,Rajang Tail,The glistening tail of aRajang. The golden fur isbeautiful and elegant.
+340,Gold Rajang Pelt,Fur taken from a Rajang'sbody. The golden hair istreasured by tailors.
+341,Chameleos Hide+,"Superior hide of a Chameleos.Strange to the touch, butvery durable."
+342,Chameleos Spike,"A sharp horn of a Chameleos.Strong and hard, butstrangely easy to work with."
+343,Chameleos Claw+,"Sharpened claw of a Chameleos.Small and sharp, but still valuedfor being easy to work with."
+344,<COLOR FF0000>#Rejected#</COLOR> I_0344_Name,<COLOR FF0000>#Rejected#</COLOR> I_0344_Explain
+345,Chameleos Tail,The distinctive tail ofChameleos. Feels verystrange.
+346,Chameleos Gem,A rare gem formed insideChameleos. It has amulti-colored glow.
+347,Daora Carapace,A shell hardened by time.Crafting with it isincredibly difficult.
+348,Daora Dragon Scale+,High-quality scale fromKushala Daora. It is saidto surpass steel.
+349,Daora Webbing,A lightweight yet sturdyKushala Daora wing. Shinesa dull silver when polished.
+350,Daora Horn+,A fierce-looking horn thatinstantly robs the body ofcold if handled improperly.
+351,Daora Tail,Cut from Kushala Daora.Incredibly destructivepower contained within.
+352,Daora Claw+,Even now the black gleamof this claw seems to emita life force.
+353,Daora Gem,A rare gem formed insidea Daora. Its glow isbreathtaking.
+354,Teostra Carapace,Harder than Teostra Shell.Looks like red-hot steel;particularly eye catching.
+355,Teostra Mane,This majestic mane is asure sign of Teostra'sregality.
+356,Teostra Tail,"Covered in red scales, thetree-like tail of Teostrais incredibly hard to cut."
+357,Teostra Horn+,A sharp horn that burnswith the fury of Teostra.It is tinged with fire.
+358,Fire Dragon Scale+,Scale that seems toburn with the majestyof a fire dragon.
+359,Teostra Claw+,The blow of this ever-hotclaw awaits those who evadethe fiery breath of Teostra.
+360,Teostra Webbing,A Teostra wing that repelsany flame. You sensestrength and valor in it.
+361,Teostra Powder,Powder from fire dragonwings. Said to magnify amaterial's abilities.
+362,Teostra Gem,A rare gem formed insidea fire dragon. Flickers withferocious flames.
+363,Kelbi Horn,"While unfit for forging,Kelbi horns are a vitalcomponent of many items."
+364,<COLOR FF0000>#Rejected#</COLOR> I_0364_Name,<COLOR FF0000>#Rejected#</COLOR> I_0364_Explain
+365,Anteka Antler,An antler often used as rawmaterial for armor. Popularwith interior decorators.
+366,Rhenoplos Shell,A shell that is very strongdespite coming from sucha small monster.
+367,Rhenoplos Carapace,A carapace grown thick andhard over many years. Superstrong for a small monster.
+368,Rhenoplos Scalp,"A sturdy part of the skullthat yields, shall we say,dashing results?"
+369,Slagtoth Hide,"A Slagtoth hide. It's prettysaggy, helping them evadedeadly attacks."
+370,Slagtoth Hide+,Lustrous hide often cut intolarge slabs. Prized for itswater-resistant properties.
+371,Gargwa Feather,"A big, beautiful featherplucked from a Gargwa. Oftenused as a fashion accessory."
+372,Bnahabra Shell,Just as useful as sturdywyvern shell in the handsof a clever craftsman.
+373,Bnahabra Carapace,The hardest part of theshell. Reveals curiousproperties when forged.
+374,Bnahabra Wing,Difficult to forge with—the results vary dependingon which surface you use.
+375,Bnahabra Stinger,A Bnahabra stinger. It'sactually a hollow tube thathouses paralytic secretions.
+376,Altaroth Jaw,Removing these mouthpartsrequires a deft hand.
+377,Altaroth Stomach,"A transparent sac cut froman Altaroth's abdomen, usedto store who knows what."
+378,Quality Stomach,"A high-quality sac from anAltaroth's abdomen. It'sthin, but durable."
+379,Bullfango Pelt,"A pelt from a Bullfango,covered in bristly fur."
+380,Bullfango Pelt+,A high-quality pelt from aBullfango. It's as tough asit is bristly.
+381,Bullfango Head,"A Bullfango head, completewith two splendid tusks."
+382,Gajau Skin,Gajau skin known for itsslimy mucus layer. Highlywater-resistant.
+383,Gajau Whisker,Gajau whiskers often used inaquatic gear as theyresist water.
+384,Gajau Scale,"High-quality Gajau skin.Thick and hard to work with,but it's worth the effort."
+385,Gajau Whisker+,"High-quality Gajau whiskers.They're so girthy, you coulduse them for fishing line."
+386,Jaggi Scale,A scale carved from a Jaggi.Popular among hunters forits beauty and versatility.
+387,Jaggi Scale+,A vividly-colored superiorJaggi scale that can be usedto make hardier equipment.
+388,Jaggi Hide,"Hide from under a Jaggi'sscales. Cheap, easy to workwith, and has numerous uses."
+389,Baggi Hide,Smooth hide from under aBaggi's scales. Perfect forlife in tough environments.
+390,Baggi Scale,A scale from a Baggi.A little tougher thana Jaggi scale.
+391,Baggi Scale+,A quality scale taken froma Baggi. Important forstrengthening weapons.
+392,Wroggi Scale,A scale from a Wroggi. Itsvivid color warns predatorsof its venomous properties.
+393,Wroggi Scale+,A quality Wroggi scale. Thethickness shows this Wroggilived a long life.
+394,Wroggi Hide,Hide from a Wroggi. Youcould make some really niceorange leather with this.
+395,Wroggi Fang,A poisonous Wroggi fang.Still covered in poison thatcould fell huge monsters.
+396,Kestodon Shell,This Kestodon shell's craggytexture helps to fend offattackers.
+397,Kestodon Scalp,A Kestodon cranial carapace.Get slammed by this andyou're in for a bad time.
+398,Kestodon Carapace,This sturdy Kestodon shellhas grown unusually thick.Feels a bit like a rock.
+399,Hydro Hide,Hide that is very resistantto water. Don't expect it tosell for much.
+400,Hydro Hide+,"The durable hide of an aquaticmonster. Highly Water-resistant,and in especially good shape."
+401,Immature Sponge,Ludroth sponge that's notfully developed. Popular formany uses besides forging.
+402,Uroktor Scale,"A volcanic monster's scale.Highly resistant to fire,but doesn't sell for much."
+403,Uroktor Scale+,"A high-quality Uroktor scale.Heat-resistant, bright crimson,and popular with the ladies."
+404,Big Fin,A fin that can be all shapesand sizes. The strongest comefrom the Sandy Plains Delex.
+405,Quality Fin,"A beautiful, unmarred fin.Its perfection lends it bothstrength and high value."
+406,Meaty Hide,The hide from the underbellyof a Zamite. Super elastic—just try stretching it.
+407,Meaty Hide+,The hide from the underbellyof a Zamite. The mostelastic samples are costly.
+408,Sharqskin Scale,Zamite skin that feelssmooth or coarse dependingon which way you rub it.
+409,Remobra Hide,A glossy and subdued blackhide taken from a Remobra.
+410,Remobra Hide+,A lustrous and elegant blackhide taken from a Remobra.
+411,Striped Hide,Unassuming black-and-redhues from a Remobrathat some hunters swear by.
+412,Remobra Head,The snake-like head of aRemobra. It stilllooks ready to pounce!
+413,Jagras Scale,Scale harvested from aJagras. Famous for its vividhue and ease of handling.
+414,Jagras Hide,"This Jagras skin is easy towork with, making it a greatchoice for novice craftsmen."
+415,Jagras Scale+,Precious scale taken from aJagras. Great for everythingfrom armor to jewelry.
+416,Jagras Hide+,"High-quality Jagras skin.Thicker, smoother, but stilljust as easy to work with."
+417,Monster Bone S,A very useful material;indispensable for bothhunting and daily life.
+418,Monster Bone M,"A nicely-sized bone. Strongyet flexible, it's as reliableas steel and wood."
+419,Monster Bone L,Bone from a large monster.Its size is hard to work withbut vital to craft big items.
+420,Monster Bone+,"A high-quality monster bone.Hard to obtain, but vital tocraft powerful equipment."
+421,Monster Keenbone,A rare bone with a razor-sharp tip that retains itsstrength even when crafted.
+422,Monster Hardbone,A precious bone rarelyyielded by wyverns. Hard toforge but incredibly strong.
+423,Elder Dragon Bone,A bone from an elder dragon.It exudes majesty.
+424,Jumbo Bone,"A large, thick bone.Often cut apart in workshopsfor use in crafting."
+425,Stoutbone,"The large, sturdy bone of abeast. Prized by blacksmithsas a prime forging material."
+426,Bird Wyvern Gem,A valuable gem that can beharvested from bird wyverns. Saidto fetch a high price on the market.
+427,Wyvern Gem,"Throughout a wyvern's life,impurities gather and formthis peculiar gem."
+428,<COLOR FF0000>#Rejected#</COLOR> I_0428_Name,<COLOR FF0000>#Rejected#</COLOR> I_0428_Explain
+429,<COLOR FF0000>#Rejected#</COLOR> I_0429_Name,<COLOR FF0000>#Rejected#</COLOR> I_0429_Explain
+430,<COLOR FF0000>#Rejected#</COLOR> I_0430_Name,<COLOR FF0000>#Rejected#</COLOR> I_0430_Explain
+431,Sharp Claw,"A shining black claw.Unlike wyvern claws, thisis shaped to grip objects."
+432,Sharp Fang,Fangs come in many shapesand sizes—the right fangfor the right job.
+433,Piercing Claw,"Dangerous to touch withbare hands, it's used asa knife in some workshops."
+434,Warm Pelt,"A pelt from a small animal.Used for many things, butmostly just regular clothes."
+435,High-quality Pelt,Feels wonderful to thetouch. Difficult to carvebut valued by the Guild.
+436,Elder Dragon Blood,Contains an unknown compound.The object of much scholarlyresearch.
+437,Screamer Sac,A monster organ that emitsan earsplitting sonic blastwhen ruptured.
+438,Poison Sac,A monster organ thatcontains a lethal toxin.Handle with extreme care.
+439,Toxin Sac,A monster organ filled withan extremely potent toxin.Even one touch can be risky.
+440,Paralysis Sac,A monster organ thatcontains paralyzingneurotoxins.
+441,Omniplegia Sac,A monster organ filled withpotent neurotoxins. A singletouch can cause paralysis.
+442,Sleep Sac,A monster organ thatcontains a knockout powdercapable of inducing sleep.
+443,Coma Sac,A monster organ thatcontains dangerous powder.One whiff can induce a coma.
+444,<COLOR FF0000>#Rejected#</COLOR> I_0444_Name,<COLOR FF0000>#Rejected#</COLOR> I_0444_Explain
+445,Inferno Sac,A monster organ filled withpowder that ignites if it somuch as touches air. Danger!
+446,Electro Sac,"A monster organ that canstore up electricity, whichis released on impact."
+447,Thunder Sac,A monster organ that canstore up large amounts ofhigh voltage electricity.
+448,Frost Sac,"A monster internal organ,filled with extremely coldfluid. Handle with care."
+449,Freezer Sac,A monster organ withtremendous freezing power.Freezes its surroundings.
+450,Aqua Sac,A monster organdesigned to hold andpreserve water.
+451,Torrent Sac,A monster organ designed tohold and preserve copiousamounts of water.
+452,Monster Fluid,A liquid bugs suck frommonsters. Mixes with insectfluids to form an adhesive.
+453,Monster Broth,A broth made from only thethickest of a monster'sjuices. Quite rich.
+454,Dash Extract,A mysterious substanceculled from certain monstersthat increases endurance.
+455,Pawprint Stamp,"Lynian currency, stampedwith a pawprint. The letterswritten on it are foreign."
+456,Felyne Fur Ruby,A priceless ruby formed bythe rare hardening of aFelyne hairball.
+457,Rath Wingtalon,Claws that are moderatelydifficult to work with. Ablacksmith's first test.
+458,Rath Medulla,Only recently extractabledue to advances in carvingtechniques. Hard to forge.
+459,Zinogre Horn,"The Zinogre's magnificenthorn, which sends most ofnature running for cover."
+460,Zinogre Tail,The plate-covered tail of aZinogre. It wields deadlyforce when swung.
+461,Fulgurbug,Thunderbugs which have beenstimulated by Zinogre. Theyemit a pale blue light.
+462,Mizutsune Fin,A beautiful brocade-like fin.Males have large fins thatturn red to match their mood.
+463,Mizutsune Tail,A flowing Mizutsune tail.It's prized for its supplefur and beautiful scales.
+464,Rathalos Tail,A severed Rathalos tail.It has any number of uses.
+465,Rare Steak,Provides a moderate boostto your stamina. This one'sstill red in the middle.
+466,Burnt Meat,"Meat that has been burnt toa crisp. It might boost yourstamina, or drain it..."
+467,Ancient Potion,Fully restores your healthand stamina.
+468,Dust of Life,Produces a cloud that restoresa large amount of health for youand anyone nearby.
+469,Gourmet Fish,Recovers the red portionof the Health Gauge andincreases natural recovery.
+470,Sushifish,A fatty fish that canrestore a small amountof health.
+471,Immunizer,Boosts your natural abilityto heal.
+472,Ration,Food that restores a bitof stamina.
+473,Dash Juice,Reduces stamina depletionfor a period of time as wellas restoring a bit of stamina.
+474,Antidote Herb,A primary ingredientin antidotes.
+475,Herbal Medicine,Removes all traces of poisonand restores a slight amountof health.
+476,Herbal Powder,Produces a cloud that curespoison and heals you a bit.
+477,Demondrug,Boosts your attack powerby filling you with—guesswhat?—demonic strength.
+478,Mega Demondrug,Boosts your attack powereven more than a regularDemondrug.
+479,Might Seed,Temporarily strengthens yourattacks when ingested byimproving energy flow.
+480,Demon Powder,"A mysterious powder;when dispersed, temporarilystrengthens attacks."
+481,Powertalon,A charm that strengthensattacks. Its effects areboosted by the claws within.
+482,Armorskin,Boosts your defenseby turning your skinas hard as rock.
+483,Mega Armorskin,Boosts your defense evenmore than a regular armorskin.
+484,Adamant Seed,Temporarily raises yourdefense when ingestedby hardening tissue.
+485,Hardshell Powder,"A mysterious powder;when dispersed, temporarilystrengthens defense."
+486,Armortalon,A charm that strengthensdefense. Its effects areboosted by the claws within.
+487,Mega Barrel Bomb,An upgraded large barrelbomb. Effective againstlarge monsters.
+488,Poisoned Meat,Raw meat that poisonswhatever eats it. Makesgreat bait for traps.
+489,Tinged Meat,Raw meat that paralyzeswhatever eats it. Makesgreat bait for traps.
+490,Drugged Meat,Raw meat that puts whatevereats it to sleep. Makesgreat bait for traps.
+491,Farcaster,Instantly transports you tothe nearest camp. Can alsobe used during battles.
+492,Poison Smoke Bomb,Releases a toxic cloud ofmist when used. Also popularas a household bug bomb.
+493,Sonic Bomb,A hand-thrown bomb thatemits a high-frequency blastof sound on detonation.
+494,Tranq Bomb,A bomb used to capturemonsters ensnared in traps.Can be used in various ways.
+495,Poison Kunai,A throwing kunai with avenom-coated blade. Poisonstargets. <COL YEL>(Supply Item)</COL>
+496,Sleep Kunai,A throwing kunai that hasbeen dusted with sleepingagents. <COL YEL>(Supply Item)</COL>
+497,Paralysis Kunai,A throwing kunai coatedwith toxins that paralyzea target. <COL YEL>(Supply Item)</COL>
+498,<COLOR FF0000>#Rejected#</COLOR> I_0498_Name,<COLOR FF0000>#Rejected#</COLOR> I_0498_Explain
+499,Whetfish,A fish with a dorsal finhard enough to be usedto sharpen weapons.
+500,EZ Ration,Restores a smallamount of stamina.<COL YEL>(Supply Item)</COL>
+501,First-aid Med,Restores a smallamount of health.<COL YEL>(Supply Item)</COL>
+502,First-aid Med+,Restores a moderateamount of health.<COL YEL>(Supply Item)</COL>
+503,EZ Max Potion,Fully restores health.<COL YEL>(Supply Item)</COL>
+504,EZ Lifepowder,Produces a cloud that healsyou and anyone nearby.<COL YEL>(Supply Item)</COL>
+505,EZ Dust of Life,Produces a cloud that restoresa large amount of health for youand anyone nearby. <COL YEL>(Supply Item)</COL>
+506,EZ Herbal Powder,Cures poison and restoresa bit of health for everyonenearby. <COL YEL>(Supply Item)</COL>
+507,EZ Demon Powder,Temporarily strengthensattacks for everyone nearby.<COL YEL>(Supply Item)</COL>
+508,EZ Hardshell Powder,Temporarily increasesdefense for everyonenearby. <COL YEL>(Supply Item)</COL>
+509,EZ Shock Trap,Immobilizes a targetfor easy capture.<COL YEL>(Supply Item)</COL>
+510,EZ Pitfall Trap,Activates a pitfall to catchmonsters with. <COL YEL>(Supply Item)</COL>
+511,EZ Large Barrel Bomb,A powered-up large barrelbomb. As powerful as a megabarrel bomb. <COL YEL>(Supply Item)</COL>
+512,EZ Sonic Bomb,Emits a high-frequency blastof sound on detonation.<COL YEL>(Supply Item)</COL>
+513,EZ Flash Bomb,A bomb that flashes brightlyon impact.<COL YEL>(Supply Item)</COL>
+514,EZ Farcaster,Transports you to thenearest camp in an instant.<COL YEL>(Supply Item)</COL>
+515,EZ Tranq Bomb,A bomb used to capturemonsters ensnared in traps.<COL YEL>(Supply Item)</COL>
+516,Gastronome Tuna,A fish that eats anything—allowing you to sometimesget items from its stomach.
+517,Great Gastronome Tuna,"An enormous Gastronome Tuna.Will eat anything, nomatter the size."
+518,Great Izuchi Pelt,Hair that grows on anIzuchi's neck and head.Fades from white to orange.
+519,Great Izuchi Hide,This hide of a mature Izuchiis a deep orange fitting forthe leader of the herd.
+520,Great Izuchi Tail,A crescent-bladed tail. Aflick of the herd leader'stail brings its prey down.
+521,Great Izuchi Pelt+,"Great Izuchi hair. Ontop of being gorgeous, it'ssmooth as a gentle breeze."
+522,Great Izuchi Hide+,"Great Izuchi hide.It's lightweight, strong,and vivid—always a hot item."
+523,Great Izuchi Tail+,Crescent-bladed tail. Itsedge has been honed by thewind to be razor sharp.
+524,Izuchi Pelt,Izuchi hair. Very versatile—you can't go five stepswithout seeing it somewhere.
+525,Izuchi Tail,Izuchi that swing theirtail skillfully may becomethe leader of the pack.
+526,Izuchi Pelt+,High-quality hair taken froman elite Izuchi in the pack.Pleasantly soft to touch.
+527,Aknosom Scale+,Armor woven from thesebeautiful white scales is indemand among royal guards.
+528,Aknosom Feather+,Quality Aknosom feather.Swing it like a blade orlayer it into a shield.
+529,Aknosom Crest+,"Giant and flashy, thisAknosom comb looks like anelegant decorative fan."
+530,Shiny Nacre,Orb formed within the body ofa Tetranadon; possibly made ofsouls... <COL YEL>(Account Item)</COL>
+531,Tetranadon Hide+,A life of constant combathas made this belly skinsturdy and stretchy as well.
+532,Tetra Carapace+,Carapace stout enoughto send any back-attackingpredators packing.
+533,Tetranadon Disc+,"Unscathed, this disc-shapedhead bone can fetch a highprice as a luxury plate."
+534,Tetranadon Beak+,This Tetranadon beak canshoot water at high pressuredue to a refined structure.
+535,Bishaten Fur,Thick fur from around aBishaten's neck. Protectsits neck from hungry jaws.
+536,Bishaten Horn,"Bishaten horn resembling amonk's hat. Wearing it makesyou smarter, supposedly."
+537,Bishaten Feather,"These feathers let Bishatengo wild, providing stabilitywhile on their hind legs."
+538,Bisha Tailcase,Tail carapace that is superhard. Can be swung aroundlike a ball on a chain.
+539,Bishaten Talon,"Bishaten claws may be small,but don't be fooled—they'lltear you to shreds."
+540,Poisonfruit,Fruit that turns poisonous whenit decomposes. Too dangerousto keep after a quest.
+541,Parafruit,Fruit with an aroma so spicyit's paralyzing. Too dangerousto keep after a quest.
+542,Flashfruit,Fruit that pops with a brightflash if shaken. Too dangerousto keep after a quest.
+543,Bishaten Fur+,Quality Bishaten fur thatstays orderly under vigoroustreatment. High utility.
+544,Bishaten Horn+,"Bishaten horn resembling amonk's hat. The bigger thehorn, the slyer the beast."
+545,Bishaten Feather+,High-quality Bishaten feather.Light blue plumage tracesthe beast's wild movements.
+546,Bishaten Tailcase+,"Robust tail carapace that isso hard, it can even breakthrough rocks."
+547,Bishaten Talon+,These claws are a good omenfor those who see the beastas a servant of the gods.
+548,Somnacanth Scale+,Quality Somnacanth scalethat shimmers a brilliantgold under moonlight.
+549,Somnacanth Shell+,This robust carapace luresin victims with its beautyand ruthlessly crushes them.
+550,Somnacanth Talon+,Talons grown for cutting andstrength that tear throughprey like butter.
+551,Somnacanth Fin+,"In legends, these fins werethought to be the souls ofthose who had died at sea."
+552,Somnacanth Sedative,"Shimmers like the fallingtears of a weeping maiden,ushering in a deep sleep."
+553,Magnamalo Scale+,"Glows a piercing purple,imbued with the beast'sinfinite fighting spirit."
+554,Magnamalo Shell+,"Carapace hardened by malice.So sturdy, it wont buckle toany attack."
+555,Magnamalo Blade+,"Honed by blood, these armblades cut prey in two witha single swipe."
+556,Magnamalo Horn+,Horns resembling a general'shelmet. Said to grow as onefeasts on the defeated.
+557,Magnamalo Scute+,The blades produced fromMagnamalo's back whenenraged show its tenacity.
+558,Purple Magna Orb,This jewel glows a sinisterpurple as though holdingmany unfortunate souls.
+559,Magna Soulprism,A crystal of condensed gas.Its quiet exterior beliesits savage explosive power.
+560,Almudron Scale+,"A quality Almudron scale.Polished by mud over manyyears, it's a work of art."
+561,Almudron Shell+,You could make a shield fromthe many hardened layers ofbodily fluid and mud alone.
+562,Almudron Claw+,Sharp Almudron claw thattears through earth likewater.
+563,Almudron Fin+,Fin-like tuft of hair thatcauses mud waves andwhirlpools with every move.
+564,Almudron Whisker+,"The longer the whiskers, thebetter they can sensevibration. Intruders beware."
+565,Golden Almudron Orb,The contrast of cloudy dullhues and brilliant gold inthis jewel is one-of-a-kind.
+566,Golden Sludge,Mud with high levels ofmucus. Coveted by smiths forits miraculous properties.
+567,Goss Harag Fur+,Goss hair is fought over insnowy lands for its warmingand protective qualities.
+568,Goss Harag Hide+,Freezing air and boilingGoss blood have made thisskin harder than most armor.
+569,Goss Harag Brace+,Arm carapace thickenedby the reckless behaviorof a Goss Harag.
+570,Goss Harag Horn+,These horns are sometimesseen as bad luck due totheir demonic shape.
+571,Goss Harag Claw+,These rough claws havestomped through ice andslashed countless beasts.
+572,Block of Ice+,Any blade or gauntlet madefrom this ice is sure tofreeze children in terror.
+573,Rakna-Kadaki Carapace,"Hard, heavy Rakna-Kadakicarapace sometimes usedin weapons and armor."
+574,Rakna-Kadaki Silk,Quality Rakna-Kadaki silk.A garb woven from this silkis sure to cushion any blow.
+575,Rakna-Kadaki Glowgut,"A Rakna-Kadaki organ thatglows alluringly, butburns with magmatic heat."
+576,Rakna-Kadaki Sharpclaw,"Rakna-Kadaki talons. Capableof such a punch, they couldshatter a dragon's hide."
+577,Rakna-Kadaki Spike,A spike that has a charmingcurve. Used in weapons aswell as for decoration.
+578,Ibushi Carapace,"Carapace of Ibushi. Oddly,the skin is hard, elastic,and also lightweight."
+579,Ibushi Hide+,"Rigid enough to repel bladesyet flexible as rubber, thishide fends off all attacks."
+580,Ibushi Horn+,"Careful polishing could turnthis horn into a graceful,gleaming azure blade."
+581,Ibushi Claw+,A swipe of these sharptalons disfigures the landwith a gust-like blow.
+582,Ibushi Windsac,Organ that stores and emitsair. Inflates to float onself-created drafts.
+583,Ibushi Bluespike,Countless rock-hard spikesprevent airborne enemiesfrom getting close.
+584,Wind Serpent Orb,This jewel shimmers with therage of a typhoon. Itsholder commands the storm.
+585,Narwa Carapace,Flexible and lightweightcarapace that courses withflesh-singeing electricity.
+586,Narwa Hide+,"Hide so well insulated,it makes lightning strikesfeel like bug bites."
+587,Narwa Horn+,Narwa's horn. Shoots outbolts of lightning whenswung; handle with caution.
+588,Narwa Claw+,Sharp talons that oncesliced up any foolishenough to attack Narwa.
+589,Narwa Sparksac,This lightning-emittingorgan creates a magneticfield to enable floating.
+590,Narwa Tentacle,Tentacles that cover Narwa'sbody. It uses them to shrouditself in lightning.
+591,Thunder Serpent Orb,This jewel shimmers withthe ire of lightning. Its holdercan tame thunder.
+592,Scale of Origin,Ultramarine and goldenyellow collide like the skyand screaming lightning.
+593,Horn of Origin,This horn dominates galesdancing across the sky andearth-splitting thunder.
+594,Orb of Origin,Within this jewel from theAllmother dance father windand mother lightning.
+595,Shimmering Scale,Valstrax scale slightlytinged by the crimsoneclipse. Portends disaster.
+596,Gleaming Shell,Valstrax carapace capable ofwithstanding sonic speedand boiling heat.
+597,Valstrax Claw+,This piece of Valstrax claw isremarkably hard and sharp. It'storn up countless peacetimes.
+598,Valstrax Tail,A large Valstrax tail thatshines like a comet. Effortlesslysweeps aside all tranquility.
+599,Rouge Spikewing,"Touched by the crimsoneclipse, this wing phasesin an otherwordly fashion."
+600,Valstrax Spineshell,A Valstrax shell used forback protection. Its sharppoints look like blades.
+601,Red Serpent Orb,"The source of evil heavenlyomens. Fly fleetly, as acomet 'cross the skies."
+602,Crimson Liquid,Merely touching this boilinghot draconic fluid fillsyour mind with catastrophe.
+603,Apex Beastclaw,Forearm carapace of an ApexArzuros. Countless scarsshow its dances with death.
+604,Apex Bubblefoam,A single drop of this fluidcan turn a wasteland intoa foamy ocean paradise.
+605,Apex Blaze Sac,An Apex Rathalos organ.Lets loose fire tingedwith unfocused rage.
+606,Apex Curlhorn,You can see the beast's willto live from the scars thishorn has endured.
+607,Apex Shockshell,Battle-scarred carapace ofan Apex Zinogre. Surges withelectricity when disgraced.
+608,Apex Venom Spike,Sword-like hair of an ApexRathian. Appears to havebent and regrown stronger.
+609,Bombadgy Igniter,Bombadgy body fluid that isprone to bursting into flame.Emitted when in danger.
+610,Rachnoid Silk,Silk shot by Rachnoid. Itshigh tensile strength makesit stronger than it looks.
+611,Rachnoid Silk+,High quality silk that isnearly as strong as ropeand more flexible too.
+612,Tobi-Kadachi Scale,A Tobi-Kadachi scale. Armormade from these isshockingly light.
+613,Tobi-Kadachi Scale+,"A quality scale that isflexible as a feather,and light as the wind."
+614,Tobi-Kadachi Pelt,Prone to generating staticelectricity—its hairs areconstantly on end.
+615,Tobi-Kadachi Pelt+,The bolt-upright hairs arean indication of the strongelectricity flowing inside.
+616,Tobi-Kadachi Membrane,"A film that is thin enoughto see through, but strongenough to catch the wind."
+617,Tobi-Kadachi Claw,These sharp-hooked Tobi-Kadachi claws are perfectfor zipping up trees.
+618,Tobi-Kadachi Claw+,Tobi-Kadachi use theserazor-sharp claws to movearound in the trees.
+619,Tobi-Kadachi Electrode,Spikes made of a highlyconductive material. Greatfor gear using electricity.
+620,Tobi-Kadachi Electrode+,Conductive electrode thatbuilds up and unleashespurple bolts of electricity.
+621,Jyuratodus Scale+,"Mud sticks to this scale,building up and increasingits thickness over time."
+622,Jyuratodus Carapace,Sturdy mud-caked Jyuratoduscarapace. The mud layerboosts defense greatly.
+623,Jyuratodus Fang+,"Once this fang gets a holdof you, it wont let go untilyou're drowning in mud."
+624,Jyuratodus Fin+,"Using this flexible fin, theJyuratodus is able to easilyglide through the mud."
+625,Chameleos Wing,"While this material isstrong, the surface's weirdtexture is its highlight."
+626,Suspicious Fang,These fangs are popular withoccult fans and sold on theblack market as cursed items.
+627,Suspicious Fang+,"Having slurped up mounds offlesh, these fangs are usedin certain rituals."
+628,Kulu-Ya-Ku Scale,"With some fine crafting, themilky white color of thesescales can be improved."
+629,Kulu-Ya-Ku Scale+,"Boasts brilliant coloration,and leaves nothing to bedesired in strength."
+630,Kulu-Ya-Ku Hide,"Due to its versatilecoloration, this hide isoften used in clothing."
+631,Kulu-Ya-Ku Hide+,"Just like the sturdy Kuluhide you know, exceptstronger, and smoother too."
+632,Kulu-Ya-Ku Beak,"This beak, developed toeat the yolks out of eggs,has a peculiar shape."
+633,Kulu-Ya-Ku Beak+,This Kulu beak is a peckabove the rest. Strongerthan typical wyvern hide.
+634,Kulu-Ya-Ku Plume,These feathers are a hitamong trendy youth fortheir vibrant patterns.
+635,Kulu-Ya-Ku Plume+,"These larger, more colorfulfeathers are often used indecorative items."
+636,Pukei-Pukei Scale,Many a hunter has beencharmed by the deep forest-green hue of these scales.
+637,Pukei-Pukei Scale+,"Light and sturdy. With alittle work, this could letyou blend into the woods."
+638,Pukei-Pukei Shell,The shade of green variesslightly depending on whereit was harvested from.
+639,Pukei-Pukei Carapace,The surface of this carapaceis exceptionally hard;great for making armor.
+640,Pukei-Pukei Quill,Green feather taken froma Pukei-Pukei wing. Hasmany decorative uses.
+641,Pukei-Pukei Wing,"This wing membrane is highlyelastic and resistant topoison, giving it many uses."
+642,Pukei-Pukei Sac,A Pukei-Pukei dewlap. Holdsa digestive poison thatdissolves plants.
+643,Pukei-Pukei Sac+,Large dewlap that amps uppoison production andpotency by a large margin.
+644,Pukei-Pukei Tail,"The striped pattern isn'teveryone's cup of tea, butsome hunters dig it."
+645,Anjanath Scale+,"Constantly subjected toforge temperatures, thesescales are as hard as iron."
+646,Anjanath Pelt+,Quality pelt treated as aluxury item for itsstoutness and healthy coat.
+647,Anjanath Fang+,Fang of a particularlyvicious Anjanath. Tearsthrough any and all prey.
+648,Anjanath Nosebone+,Nasal bones only grow tobe this large in beasts thatsurvive countless battles.
+649,Anjanath Gem,"Rare jewel from withinan Anjanath. Tinged withfire, it shines gallantly."
+650,Bazelgeuse Scale+,It appears that this woulddampen violent impacts.Shines a dull silver.
+651,Bazelgeuse Carapace,Strong enough to entirelyignore the harsh explosionsof Bazelgeuse scales.
+652,Bazelgeuse Tail,This tail is packed withexplosive scales; each onecould take out your house!
+653,Bazelgeuse Fuse,"Explosive fluid-producingorgan. Drop it, and you'llbe standing in a crater."
+654,Bazelgeuse Talon,These massive honed clawsare the incarnation ofdestructive force.
+655,Bazelgeuse Wing,Massive wing developed tochase prey to the ends ofthe earth.
+656,Bazelgeuse Gem,Those drawn in by thisjewel's glow instantly snapinto a maddened rage.
+657,Massive Bone,"Massive bone from a largebeast. It's really, reallybig. Versatile material."
+658,Great Stoutbone,Large bone that is bothstrong and durable. A top-tier bone material.
+659,Rich Mud,"Highly nutritious mud. Whileit makes great fertilizer,it works for weapons too!"
+660,Rathian Scrap,"A small, irregular scrap ofRathian material. Used tomake Buddy Equipment."
+661,Rathian Scrap+,A high-quality scrap ofRathian material. Used tomake Buddy Equipment.
+662,Rathalos Scrap,"A small, irregular scrap ofRathalos material. Used tomake Buddy Equipment."
+663,Rathalos Scrap+,A high-quality scrap ofRathalos material. Usedto make Buddy Equipment.
+664,Zinogre Scrap,"A small, irregular scrap ofZinogre material. Used tomake Buddy Equipment."
+665,Zinogre Scrap+,A high-quality scrap ofZinogre material. Used tomake Buddy Equipment.
+666,Arzuros Scrap,"A small, irregular scrap ofArzuros material. Used tomake Buddy Equipment."
+667,Arzuros Scrap+,A high-quality scrap ofArzuros material. Used tomake Buddy Equipment.
+668,Baggi Scrap,"A small, irregular scrap ofBaggi material. Used tomake Buddy Equipment."
+669,Baggi Scrap+,A high-quality scrap ofBaggi material. Used tomake Buddy Equipment.
+670,Lagombi Scrap,"A small, irregular scrap ofLagombi material. Used tomake Buddy Equipment."
+671,Lagombi Scrap+,A high-quality scrap ofLagombi material. Usedto make Buddy Equipment.
+672,Barroth Scrap,"A small, irregular scrap ofBarroth material. Used tomake Buddy Equipment."
+673,Barroth Scrap+,A high-quality scrap ofBarroth material. Used tomake Buddy Equipment.
+674,Wroggi Scrap,"A small, irregular scrap ofWroggi material. Used tomake Buddy Equipment."
+675,Wroggi Scrap+,A high-quality scrap ofWroggi material. Used tomake Buddy Equipment.
+676,Royal Ludroth Scrap,"A small, irregular scrap ofRoyal Ludroth material. Usedto make Buddy Equipment."
+677,Royal Ludroth Scrap+,A high-quality scrap of RoyalLudroth material. Used tomake Buddy Equipment.
+678,Barioth Scrap,"A small, irregular scrap ofBarioth material. Used tomake Buddy Equipment."
+679,Barioth Scrap+,A high-quality scrap ofBarioth material. Used tomake Buddy Equipment.
+680,Volvidon Scrap,"A small, irregular scrap ofVolvidon material. Used tomake Buddy Equipment."
+681,Volvidon Scrap+,A high-quality scrap ofVolvidon material. Used tomake Buddy Equipment.
+682,Basarios Scrap,"A small, irregular scrap ofBasarios material. Used tomake Buddy Equipment."
+683,Basarios Scrap+,A high-quality scrap ofBasarios material. Used tomake Buddy Equipment.
+684,Nargacuga Scrap,"A small, irregular scrap ofNargacuga material. Usedto make Buddy Equipment."
+685,Nargacuga Scrap+,A high-quality scrap ofNargacuga material. Usedto make Buddy Equipment.
+686,Nitroshroom,A hard-to-find mushroom thatcan generate blazing heat.Required to craft gunpowder.
+687,Parashroom,A mushroom that inducesparalysis. Required tocraft tranq bombs.
+688,Toadstool,A mushroom that inducespoison. Required to craftpoison smoke bombs.
+689,Exciteshroom,Has a very strange aroma.Is it edible? Is it deadly?Required to make farcasters.
+690,Mandragora,A dangerous fungus said todraw the life out of people.Required to make max potions.
+691,Icium,Precious metal from the FrostIslands. Shines bright whitewhen the light catches it.
+692,Gracium,Precious metal from the FrostIslands. Shines bright whitewhen the light catches it.
+693,Lightcrystal,"Many scour the Flooded Forestfor this faintly-glowing,adamantine substance."
+694,Novacrystal,A shining crystal found inplaces like the Flooded Forest.Only used in the finest crafts.
+695,Firestone,Combusts even at roomtemperature. Its heat can beused to fuse materials.
+696,Firecell Stone,A magma-like deposit thatonly trained hands canproperly work with.
+697,Carbalite Ore,An ore still being studied.It yields even better metalthan dragonite.
+698,Fucium Ore,Ore composed of a mysteriousmetal; can fuse nearlyany two materials together.
+699,Bitterbug,A bug with innate healingabilities. Used as acomponent of many medicines.
+700,Flashbug,An insect that emits ablinding flash when it dies.Required to make Flash Bombs.
+701,Thunderbug,An insect that sparks whenhit. Required to make ShockTraps and Thunder Ammo.
+702,Fire Herb,"A wondrous, flammable plant.Useful for crafting explosivesand Flaming Ammo."
+703,Ivy,A lightweight and extremelystrong plant. Used to makenets for pitfall traps.
+704,Sleep Herb,A plant containing sleepingagents. Used to crafttranquilizers.
+705,Snow Herb,A plant that radiates ice-cold air. Combine with otheritems to create Freeze Ammo.
+706,Flowfern,This plant's leaves storeample water. A componentfor making Water Ammo.
+707,Sunscorned Grass,A strange and fragrant herbthat grows in the shade.Used to make deodorant.
+708,Gloamgrass Bud,An herb that wilts underthe sun's rays. Could ithold healing powers?
+709,Felvine,A Melynx's favorite food—they just have to steal it.
+710,Smokenut,A nut that produces torrentsof smoke. Combine with otheritems to add more effects.
+711,Dragonfell Berry,"A mysterious berry, thoughtto be loathed by dragons.Needed to make Dragon Ammo."
+712,Huskberry,A nut with a rock-hard shell.Used to make Shrapnel Ammo.
+713,Needleberry,A nut covered in needle-likespines. Used to make SpreadAmmo.
+714,Bomberry,A nut that ruptures onimpact. Used to makecluster bombs.
+715,Blastnut,A nut used to make StickyAmmo.
+716,Dragonstrike Nut,A nut that explodes onimpact. Used to makeWyvern Ammo.
+717,Slashberry,Used to make Slicing Ammo.
+718,Sturdy Bone,A rigid bone taken froma bonepile. Durable butlight and easy to handle.
+719,Twisted Remains,A crazily contorted bone.Gives off the eerie vibesof the Shrine Ruins.
+720,Dragonhusk Shard,A bone fragment froma long- dead dragon. Itstill emits a majestic air.
+721,Eroded Skeleton,A skeleton buried in theSandy Plains. Shaped byyears of wind erosion.
+722,Quality Bone,Quality bone material. Itstoughness and pliabilitylend well to crafting.
+723,Dragonbone Relic,A curiously unfossilizedbone from a dragon thatonce roamed these lands.
+724,Twisted Rockbone,A crazily contorted bone.Echoes the silent but creepyaura of the Shrine Ruins.
+725,Eroded Husk,"Buffeted by hot sands andcold nights, only thesturdiest bones remain."
+726,Spider Web,A very sticky web. Usedto craft pitfall traps.
+727,Gunpowder,A dangerous substancethat explodes when struckor heated.
+728,Barrel Lid,A small barrel lid.There appears to bea drawing on it.
+729,Pricey Shroom,A special mushroom perfectin both shape and smell.<COL YEL>(Account Item)</COL>
+730,Firelantern,A vermilion berry. Lookslike a fireball from afar.<COL YEL>(Account Item)</COL>
+731,Wisplantern,A flame-red berry. Prizedas a good luck charm.<COL YEL>(Account Item)</COL>
+732,Phantolantern,A deep-red berry. Enchantingto see sway in the breeze.<COL YEL>(Account Item)</COL>
+733,Super Shoot,A shoot that grows inthe Shrine Ruins. A Kamurastaple. <COL YEL>(Account Item)</COL>
+734,Choice Shoot,"A very nice shoot: softbut firm, and very tasty.<COL YEL>(Account Item)</COL>"
+735,Pricey Shoot,A high-class super shootin impeccable shape.<COL YEL>(Account Item)</COL>
+736,Cool Frostcone,A slightly frozen pinecone.Glints in the light.<COL YEL>(Account Item)</COL>
+737,Gelid Frostcone,A firmly frozen pinecone.Glitters in the light.<COL YEL>(Account Item)</COL>
+738,Bitter Frostcone,An ice-encrusted pinecone.Gleams like a gem.<COL YEL>(Account Item)</COL>
+739,Raftshell,A large oyster commonlyfound by the Frost Islands.<COL YEL>(Account Item)</COL>
+740,Boatshell,An oversized oyster. It'stoo big to eat in one bite!<COL YEL>(Account Item)</COL>
+741,Shipshell,An abominably giganticoyster. Eat it like steak!<COL YEL>(Account Item)</COL>
+742,Foreign Coin,A dragon motif coin from abygone foreign empire.<COL YEL>(Account Item)</COL>
+743,Royal Mint Coin,A coin depicting the sternface of an ancient king.<COL YEL>(Account Item)</COL>
+744,Mysterious Coin,A coin said to originatefrom an olden civilization.<COL YEL>(Account Item)</COL>
+745,Simple Prism,"A slightly clouded crystal,formerly small bones.<COL YEL>(Account Item)</COL>"
+746,Misty Prism,"A clear, colorful crystal.Appears to hold water.<COL YEL>(Account Item)</COL>"
+747,Cascade Prism,A colorful crystal thatsparkles like suspended dew.<COL YEL>(Account Item)</COL>
+748,Hearty Pitcher,A pitcher plant with anacrid scent. Eats anything.<COL YEL>(Account Item)</COL>
+749,Gourmet Pitcher,A pitcher plant with anice scent. Eats juicy bugs.<COL YEL>(Account Item)</COL>
+750,Tripoint Pitcher,A pitcher plant with a richscent and particular palate.<COL YEL>(Account Item)</COL>
+751,Royal Rhino,A gem-like beetle thatcollectors pay dearly for.<COL YEL>(Account Item)</COL>
+752,King Rhino,A regally shining beetlecollectors would die for.<COL YEL>(Account Item)</COL>
+753,Divine Rhino,A sublime prize from theAltaroth collectors adore.<COL YEL>(Account Item)</COL>
+754,Bauble Cactus,A cactus from the SandyPlains. Small but fleshy.<COL YEL>(Account Item)</COL>
+755,Jewel Cactus,A rare cactus from the SandyPlains. Big and meaty.<COL YEL>(Account Item)</COL>
+756,Kingly Cactus,The Sandy Plains's finestof cactuses. Fit for a king.<COL YEL>(Account Item)</COL>
+757,Tropical Berry,A bright red strawberry fromscorching climes.<COL YEL>(Account Item)</COL>
+758,Desert Berry,A fragrant strawberry thatradiates slight heat.<COL YEL>(Account Item)</COL>
+759,Lava Berry,A volatile inferno lurkswithin this fruit.<COL YEL>(Account Item)</COL>
+760,Sand Rose,Ore that has crystallized inthe shape of a rose.<COL YEL>(Account Item)</COL>
+761,Rock Rose,Fragile ore that resembles arose. Don't drop it!<COL YEL>(Account Item)</COL>
+762,Gaia Rose,"A delicate rose—wait, that'sno rose, it's ore!<COL YEL>(Account Item)</COL>"
+763,Coal,A combustible rock thatemits a faint warmth.<COL YEL>(Account Item)</COL>
+764,Volatile Coal,A combustible rock so hotit may burst into flame atany second. <COL YEL>(Account Item)</COL>
+765,Inflammable Coal,A combustible rock so hot itwill burn for days if hit.<COL YEL>(Account Item)</COL>
+766,Chalcedony Bone,Crystallized dragonboneweathered by harsh climes.<COL YEL>(Account Item)</COL>
+767,Chalcedony Greatbone,"Despite its waxy luster, itlooks more alive than dull.<COL YEL>(Account Item)</COL>"
+768,Chalcedony Skull,"The frontal bone of a dragonskull, now pulsating quartz.<COL YEL>(Account Item)</COL>"
+769,Bismuth Fragment,A beautifully variegated orecalled bismuth.<COL YEL>(Account Item)</COL>
+770,Bismuth Prism,A piece of bismuth ore thatsparkles kaleidoscopically.<COL YEL>(Account Item)</COL>
+771,Bismuth Augite,Ore mantled in a pristinelayer of valuable bismuth.<COL YEL>(Account Item)</COL>
+772,Wyvern Egg,An egg that was stolenfrom a monster's nest.<COL YEL>(Account Item)</COL>
+773,Quality Wyvern Egg,A high-quality egg. Stolenfrom a monster's nest.<COL YEL>(Account Item)</COL>
+774,Frost Fossil,A fossil encrusted in ice.Sought after by biologists.<COL YEL>(Account Item)</COL>
+775,Big Frost Fossil,A large fossil encrusted inice. A biologist's treasure.<COL YEL>(Account Item)</COL>
+776,Herbivore Egg,A tasty-looking egg stolenfrom a herbivore's nest.<COL YEL>(Account Item)</COL>
+777,Rhenoplos Egg+,"A herbivore egg. Prized forits mild, refined taste.<COL YEL>(Account Item)</COL>"
+778,Laffresia,A large flower with heart-like petals. Smells unique.<COL YEL>(Account Item)</COL>
+779,Alaffresia,Laffresia with a scent strongenough to attract any creature.<COL YEL>(Account Item)</COL>
+780,Bismuth Chunk,A hefty chunk of bismuth.Has a rainbow shine.<COL YEL>(Account Item)</COL>
+781,Big Bismuth Chunk,A hefty chunk of bismuth.Beautifully colored.<COL YEL>(Account Item)</COL>
+782,Great Whetfish,A jumbo-sized Whetfish.Its dorsal fin surpasses evenwhetstones in functionality.
+783,Combustuna,A fish that ignites upondeath. Mix with fire herbsto make gunpowder.
+784,Big Combustuna,A jumbo-sized Combustuna.Mix with fire herbs to get lotsof gunpowder.
+785,Flamefin,A fish that ignites upondeath. Mix with fire herbsto make quality gunpowder.
+786,Great Flamefin,A jumbo-sized Flamefin.Mix with fire herbs to makelots of quality gunpowder.
+787,Scatterfish,A shrapnel-spewing fish. Mixwith a large barrel bomb fora dramatic firepower boost.
+788,Goldenfry,"A small, rare, gold fish.Commands a high price."
+789,Speartuna,A giant fish that's bothrare and valuable. It lookslike it could have some use.
+790,Crimsonfish,A rare fish made of solidcopper. Goes for a tidy sum.<COL YEL>(Account Item)</COL>
+791,Goldenfish,A rare fish made of solidgold. Goes for a tidy sum.<COL YEL>(Account Item)</COL>
+792,Platinumfish,A rare fish made of solidplatinum. Goes for atidy sum. <COL YEL>(Account Item)</COL>
+793,Brocadefish,"A stunning, iridescent fish.Nobles keep them as pets.<COL YEL>(Account Item)</COL>"
+794,King Brocadefish,A large and particularlybeautiful brocadefish.<COL YEL>(Account Item)</COL>
+795,Supreme Brocadefish,A large fish famed for itsbrilliant color and pattern.<COL YEL>(Account Item)</COL>
+796,<COLOR FF0000>#Rejected#</COLOR> I_0796_Name,<COLOR FF0000>#Rejected#</COLOR> I_0796_Explain
+797,Fire Barrel Bomb,A highly potent crimson seedbarrel bomb. Too dangerousto keep after a quest.
+798,Exploding Kunai,Kunai slathered in explosivegray seed oil. Too dangerousto keep after a quest.
+799,<COLOR FF0000>#Rejected#</COLOR> I_0799_Name,<COLOR FF0000>#Rejected#</COLOR> I_0799_Explain
+800,<COLOR FF0000>#Rejected#</COLOR> I_0800_Name,<COLOR FF0000>#Rejected#</COLOR> I_0800_Explain
+801,<COLOR FF0000>#Rejected#</COLOR> I_0801_Name,<COLOR FF0000>#Rejected#</COLOR> I_0801_Explain
+802,<COLOR FF0000>#Rejected#</COLOR> I_0802_Name,<COLOR FF0000>#Rejected#</COLOR> I_0802_Explain
+803,<COLOR FF0000>#Rejected#</COLOR> I_0803_Name,<COLOR FF0000>#Rejected#</COLOR> I_0803_Explain
+804,<COLOR FF0000>#Rejected#</COLOR> I_0804_Name,<COLOR FF0000>#Rejected#</COLOR> I_0804_Explain
+805,<COLOR FF0000>#Rejected#</COLOR> I_0805_Name,<COLOR FF0000>#Rejected#</COLOR> I_0805_Explain
+806,<COLOR FF0000>#Rejected#</COLOR> I_0806_Name,<COLOR FF0000>#Rejected#</COLOR> I_0806_Explain
+807,Humble Scrap,"A common, simple scrapof material. Used to makeBuddy Equipment."
+808,Humble Scrap+,"A simple, but quality scrapof material. Used to makeBuddy Equipment."
+809,<COLOR FF0000>#Rejected#</COLOR> I_0809_Name,<COLOR FF0000>#Rejected#</COLOR> I_0809_Explain
+810,<COLOR FF0000>#Rejected#</COLOR> I_0810_Name,<COLOR FF0000>#Rejected#</COLOR> I_0810_Explain
+811,<COLOR FF0000>#Rejected#</COLOR> I_0811_Name,<COLOR FF0000>#Rejected#</COLOR> I_0811_Explain
+812,<COLOR FF0000>#Rejected#</COLOR> I_0812_Name,<COLOR FF0000>#Rejected#</COLOR> I_0812_Explain
+813,Ore Scrap,"A small, irregular scrapof ore. Used to makeBuddy Equipment."
+814,Ore Scrap+,A high-quality scrapof ore. Used to makeBuddy Equipment.
+815,Insect Scrap,"A small, irregular scrapof bug parts. Used tomake Buddy Equipment."
+816,Insect Scrap+,A high-quality scrapof bug parts. Used tomake Buddy Equipment.
+817,Bone Scrap,"A small, irregular scrapof bone. Used to makeBuddy Equipment."
+818,Bone Scrap+,A high-quality scrap ofbone. Used to makeBuddy Equipment.
+819,Fur Scrap,"A small, irregular scrapof fur. Used to makeBuddy Equipment."
+820,Fur Scrap+,A high-quality scrapof fur. Used to makeBuddy Equipment.
+821,Slagtoth Scrap,"A small, irregular scrap ofSlagtoth material. Used tomake Buddy Equipment."
+822,Slagtoth Scrap+,A high-quality scrap ofSlagtoth material. Usedto make Buddy Equipment.
+823,Jaggi Scrap,"A small, irregular scrapof Jaggi material. Used tomake Buddy Equipment."
+824,Jaggi Scrap+,A high-quality scrap ofJaggi material. Used tomake Buddy Equipment.
+825,Bnahabra Scrap,"A small, irregular scrap ofBnahabra material. Usedto make Buddy Equipment."
+826,Bnahabra Scrap+,A high-quality scrap ofBnahabra material. Usedto make Buddy Equipment.
+827,Rhenoplos Scrap,"A small, irregular scrap ofRhenoplos material. Usedto make Buddy Equipment."
+828,Rhenoplos Scrap+,A high-quality scrap ofRhenoplos material. Usedto make Buddy Equipment.
+829,Izuchi Scrap,"A small, irregular scrapof Izuchi material. Usedto make Buddy Equipment."
+830,Izuchi Scrap+,A high-quality scrap ofIzuchi material. Used tomake Buddy Equipment.
+831,Tetranadon Scrap,"A small, irregular scrap ofTetranadon material. Usedto make Buddy Equipment."
+832,Tetranadon Scrap+,A high-quality scrap ofTetranadon material. Usedto make Buddy Equipment.
+833,Khezu Scrap,"A small, irregular scrap ofKhezu material. Used tomake Buddy Equipment."
+834,Khezu Scrap+,A high-quality scrap ofKhezu material. Used tomake Buddy Equipment.
+835,Kulu-Ya-Ku Scrap,"A small, irregular scrap ofKulu-Ya-Ku material. Usedto make Buddy Equipment."
+836,Kulu-Ya-Ku Scrap+,A high-quality scrap ofKulu-Ya-Ku material. Usedto make Buddy Equipment.
+837,Aknosom Scrap,"A small, irregular scrap ofAknosom material. Usedto make Buddy Equipment."
+838,Aknosom Scrap+,A high-quality scrap ofAknosom material. Usedto make Buddy Equipment.
+839,Somnacanth Scrap,"A small, irregular scrap ofSomnacanth material. Usedto make Buddy Equipment."
+840,Somnacanth Scrap+,A high-quality scrap ofSomnacanth material. Usedto make Buddy Equipment.
+841,Pukei Scrap,"A small, irregular scrap ofPukei-Pukei material. Usedto make Buddy Equipment."
+842,Pukei Scrap+,A high-quality scrap ofPukei-Pukei material. Usedto make Buddy Equipment.
+843,Kadachi Scrap,"A small, irregular scrap ofTobi-Kadachi material. Usedto make Buddy Equipment."
+844,Kadachi Scrap+,A high-quality scrap of Tobi-Kadachi material. Used tomake Buddy Equipment.
+845,Bishaten Scrap,"A small, irregular scrap ofBishaten material. Usedto make Buddy Equipment."
+846,Bishaten Scrap+,A high-quality scrap ofBishaten material. Usedto make Buddy Equipment.
+847,Anjanath Scrap,"A small, irregular scrap ofAnjanath material. Usedto make Buddy Equipment."
+848,Anjanath Scrap+,A high-quality scrap ofAnjanath material. Usedto make Buddy Equipment.
+849,Mizutsune Scrap,"A small, irregular scrap ofMizutsune material. Usedto make Buddy Equipment."
+850,Mizutsune Scrap+,A high-quality scrap ofMizutsune material. Usedto make Buddy Equipment.
+851,Magnamalo Scrap,"A small, irregular scrap ofMagnamalo material. Usedto make Buddy Equipment."
+852,Magnamalo Scrap+,A high-quality scrap ofMagnamalo material. Usedto make Buddy Equipment.
+853,Goss Harag Scrap,"A small, irregular scrap ofGoss Harag material. Usedto make Buddy Equipment."
+854,Goss Harag Scrap+,A high-quality scrap ofGoss Harag material. Usedto make Buddy Equipment.
+855,Diablos Scrap,"A small, irregular scrap ofDiablos material. Usedto make Buddy Equipment."
+856,Diablos Scrap+,A high-quality scrap ofDiablos material. Usedto make Buddy Equipment.
+857,Tigrex Scrap,"A small, irregular scrap ofTigrex material. Used tomake Buddy Equipment."
+858,Tigrex Scrap+,A high-quality scrap ofTigrex material. Used tomake Buddy Equipment.
+859,Almudron Scrap,"A small, irregular scrap ofAlmudron material. Usedto make Buddy Equipment."
+860,Almudron Scrap+,A high-quality scrap ofAlmudron material. Usedto make Buddy Equipment.
+861,Jyura Scrap+,A high-quality scrap ofJyuratodus material. Usedto make Buddy Equipment.
+862,Ibushi Scrap+,A high-quality scrap ofIbushi material. Used tomake Buddy Equipment.
+863,Rajang Scrap+,A high-quality scrap ofRajang material. Used tomake Buddy Equipment.
+864,Rakna-Kadaki Scrap+,A high-quality scrap ofRakna-Kadaki material. Usedto make Buddy Equipment.
+865,Narwa Scrap+,A high-quality scrap ofNarwa material. Used tomake Buddy Equipment.
+866,Bazel Scrap+,A high-quality scrap ofBazelgeuse material. Usedto make Buddy Equipment.
+867,Chameleos Scrap+,A high-quality scrap ofChameleos material. Usedto make Buddy Equipment.
+868,Kushala Daora Scrap+,A high-quality scrap ofKushala material. Usedto make Buddy Equipment.
+869,Teostra Scrap+,A high-quality scrap ofTeostra material. Used tomake Buddy Equipment.
+870,Valstrax Scrap+,A high-quality scrap ofValstrax material. Usedto make Buddy Equipment.
+871,Popfish,A fish that literally popswhen it dies. Required tocraft cleanser.
+872,Ballista Shot,<COLOR FF0000>#Rejected#</COLOR> I_0872_Explain
+873,Crag Shot,<COLOR FF0000>#Rejected#</COLOR> I_0873_Explain
+874,Retreat Shot,<COLOR FF0000>#Rejected#</COLOR> I_0874_Explain
+875,Cannon Ammo,<COLOR FF0000>#Rejected#</COLOR> I_0875_Explain
+876,<COLOR FF0000>#Rejected#</COLOR> I_0876_Name,<COLOR FF0000>#Rejected#</COLOR> I_0876_Explain
+877,C. Thunder Ammo,<COLOR FF0000>#Rejected#</COLOR> I_0877_Explain
+878,Flaming Shot,<COLOR FF0000>#Rejected#</COLOR> I_0878_Explain
+879,Flaming Beam,<COLOR FF0000>#Rejected#</COLOR> I_0879_Explain
+880,<COLOR FF0000>#Rejected#</COLOR> I_0880_Name,<COLOR FF0000>#Rejected#</COLOR> I_0880_Explain
+881,Q. Rapid Shot,<COLOR FF0000>#Rejected#</COLOR> I_0881_Explain
+882,Q. Cluster Shot,<COLOR FF0000>#Rejected#</COLOR> I_0882_Explain
+883,Silkbind Shot,<COLOR FF0000>#Rejected#</COLOR> I_0883_Explain
+884,<COLOR FF0000>#Rejected#</COLOR> I_0884_Name,<COLOR FF0000>#Rejected#</COLOR> I_0884_Explain
+885,<COLOR FF0000>#Rejected#</COLOR> I_0885_Name,<COLOR FF0000>#Rejected#</COLOR> I_0885_Explain
+886,<COLOR FF0000>#Rejected#</COLOR> I_0886_Name,<COLOR FF0000>#Rejected#</COLOR> I_0886_Explain
+887,Mountshrooms,A heaping mushroom platter.Made with shrooms of alltypes and sizes.
+888,Shadeshrooms,"A random assortment ofmushrooms—some deadly,some valuable."
+889,Stargazer Flower,A plant that looks to theheavens when it blooms. Itspetals are used to make dye.
+890,Stargazer Bloom,A stargazer flower in fullbloom. Its dignified displayoutshines the starry sky.
+891,Sinister Cloth,Found long ago in the tombof a king from a long-forgotten desert land.
+892,Sinister Darkcloth,A burial cloth said to haveshrouded an ancient desertking. Believed to be cursed.
+893,Bumblepumpkin,"A trendy orange pumpkin.If left undisturbed, it cangrow to be gigantic."
+894,Omegapumpkin,"Bumblepumpkins that growto be this gigantic are referredto as ""Omegakins."""
+895,Cutejelly,"A jellyfish with a uniquelycute pattern. Looks fluffy,but don't touch it."
+896,Gothjelly,"A gothic-looking jellyfishwith the same uniquepattern, but more frills."
+897,Dreamshell,A shell that contains asedating gas. It's adornedwith other shells and rocks.
+898,Toxic Kumori,An insect that possesses apowerful poison used bycertain tribes for hunting.
+899,Butterfly Beetle,An odd insect with the hugejaws of a beetle and thedainty wings of a butterfly.
+900,Blossom Cricket,A beautiful bell cricketresembling a flower. A chirpopens the hardest of hearts.
+901,Dosbiscus,"A large, beautifullycolored flowering plantforeign to this land."
+902,Armored Bream,"A fish with massive scales,which have a wyvern-likequality to them."
+903,Springnight Carp,A species of carp whosearrival signals the startof the breeding season.
+904,Beast Gem,A valuable jewel formed fromcoagulated juices inside amonster. Glows wildly.
+905,Acute Fang,Fangs come in many shapesand sizes. This one is smallbut can still pierce scale.
+906,Fabled Spice,"A key dango ingredient,and highly top secret.<COL YEL>(Account Item)</COL>"
+907,Legendary Herb,"THE key dango ingredient,and highly top secret.<COL YEL>(Account Item)</COL>"
+908,Rathian Scroll,A hanging scroll depictinga Rathian in MasterHojo's distinctive style.
+909,Rathalos Scroll,A hanging scroll depictinga Rathalos in MasterHojo's distinctive style.
+910,Khezu Scroll,A hanging scroll depictinga Khezu in MasterHojo's distinctive style.
+911,Basarios Scroll,A hanging scroll depictinga Basarios in MasterHojo's distinctive style.
+912,Diablos Scroll,A hanging scroll depictinga Diablos in MasterHojo's distinctive style.
+913,Rajang Scroll,A hanging scroll depictinga Rajang in MasterHojo's distinctive style.
+914,Daora Scroll,A hanging scroll depictinga Kushala Daora in MasterHojo's distinctive style.
+915,Chameleos Scroll,A hanging scroll depictinga Chameleos in MasterHojo's distinctive style.
+916,Teostra Scroll,A hanging scroll depictinga Teostra in MasterHojo's distinctive style.
+917,Tigrex Scroll,A hanging scroll depictinga Tigrex in MasterHojo's distinctive style.
+918,Nargacuga Scroll,A hanging scroll depictinga Nargacuga in MasterHojo's distinctive style.
+919,Barioth Scroll,A hanging scroll depictinga Barioth in MasterHojo's distinctive style.
+920,Barroth Scroll,A hanging scroll depictinga Barroth in MasterHojo's distinctive style.
+921,Ludroth Scroll,A hanging scroll depictinga Royal Ludroth in MasterHojo's distinctive style.
+922,Baggi Scroll,A hanging scroll depictinga Great Baggi in MasterHojo's distinctive style.
+923,Zinogre Scroll,A hanging scroll depictinga Zinogre in MasterHojo's distinctive style.
+924,Wroggi Scroll,A hanging scroll depictinga Great Wroggi in MasterHojo's distinctive style.
+925,Arzuros Scroll,A hanging scroll depictingan Arzuros in MasterHojo's distinctive style.
+926,Lagombi Scroll,A hanging scroll depictinga Lagombi in MasterHojo's distinctive style.
+927,Volvidon Scroll,A hanging scroll depictinga Volvidon in MasterHojo's distinctive style.
+928,Mizutsune Scroll,A hanging scroll depictinga Mizutsune in MasterHojo's distinctive style.
+929,Valstrax Scroll,A hanging scroll depictinga Valstrax in MasterHojo's distinctive style.
+930,Magnamalo Scroll,A hanging scroll depictingMagnamalo in MasterHojo's distinctive style.
+931,Bishaten Scroll,A hanging scroll depictinga Bishaten in MasterHojo's distinctive style.
+932,Aknosom Scroll,A hanging scroll depictingan Aknosom in MasterHojo's distinctive style.
+933,Tetranadon Scroll,A hanging scroll depictinga Tetranadon in MasterHojo's distinctive style.
+934,Somna Scroll,A hanging scroll depictinga Somnacanth in MasterHojo's distinctive style.
+935,Rakna-Kadaki Scroll,A hanging scroll depictinga Rakna-Kadaki in MasterHojo's distinctive style.
+936,Almudron Scroll,A hanging scroll depictingan Almudron in MasterHojo's distinctive style.
+937,Ibushi Scroll,A hanging scroll depictingIbushi in Master Hojo'sdistinctive style.
+938,Goss Scroll,A hanging scroll depictinga Goss Harag in MasterHojo's distinctive style.
+939,Izuchi Scroll,A hanging scroll depictinga Great Izuchi in MasterHojo's distinctive style.
+940,Narwa Scroll,A hanging scroll depictingNarwa in Master Hojo'sdistinctive style.
+941,Anjanath Scroll,A hanging scroll depictingan Anjanath in MasterHojo's distinctive style.
+942,Pukei Scroll,A hanging scroll depictinga Pukei-Pukei in MasterHojo's distinctive style.
+943,Kulu Scroll,A hanging scroll depictinga Kulu-Ya-Ku in MasterHojo's distinctive style.
+944,Jyura Scroll,A hanging scroll depictinga Jyuratodus in MasterHojo's distinctive style.
+945,Kadachi Scroll,A hanging scroll depictinga Tobi-Kadachi in MasterHojo's distinctive style.
+946,Bazel Scroll,A hanging scroll depictinga Bazelgeuse in MasterHojo's distinctive style.
+947,<COLOR FF0000>#Rejected#</COLOR> I_0947_Name,<COLOR FF0000>#Rejected#</COLOR> I_0947_Explain
+948,Apex Arzuros Scroll,A hanging scroll depictingan Apex Arzuros in MasterHojo's distinctive style.
+949,Apex Rathian Scroll,A hanging scroll depictingan Apex Rathian in MasterHojo's distinctive style.
+950,Apex Rathalos Scroll,A hanging scroll depictingan Apex Rathalos in MasterHojo's distinctive style.
+951,Apex Mizutsune Scroll,A hanging scroll depictingan Apex Mizutsune in MasterHojo's distinctive style.
+952,Apex Diablos Scroll,A hanging scroll depictingan Apex Diablos in MasterHojo's distinctive style.
+953,Apex Zinogre Scroll,A hanging scroll depictingan Apex Zinogre in MasterHojo's distinctive style.
+954,The Leader,"A scroll hanging in yourroom. They say Hojo's smilebrings luck, after all..."
+955,Fast Friends,A hanging scroll depictingthe Kamura gang. Everyoneis striking a cute pose.
+956,Slayer of Malice,"A hanging scroll presentedto the savior of Kamura,who slew Magnamalo."
+957,Moonlit Night,A hanging scroll depictinga moonlit Kamura surroundedby Spiribirds. Beautiful!
+958,The Showdown,An artist went wild withthis image of an Arzuros anda Tetranadon wrestling.
+959,Felyne Daruma,Kagero brought this from avillage where it's seen as amark of a hunter's bravery.
+960,Golden Hojo Cast,A statue modeled afterKamura's Guild Master. Saidto usher in good fortune.
+961,Kamura Twins,Traditional dolls resemblingthe village Maidens. Theyare even cuter side-by-side!
+962,Lucky Felyne,What lies inside its goldenegg? Your wildest dreams?A tasty omelet?
+963,Bombadgy Pot,A teapot with a Bombadgymotif inspired by a localfairy tale.
+964,Moofy Doll,A handcrafted Moofah fromanother village. Has a cutelittle bell around its neck.
+965,Wheeled Canyne Toy,A Canyne toy made from woodnative to Kamura. Craftedby Iori's steady hands.
+966,Pure Machalite,Highly pure machalite isa go-to decoration due toits beautiful blue hue.
+967,Crystal Cluster,A fully intact lightcrystalcluster. A popular choicefor mood lighting.
+968,Cohoot Lottery,A Cohoot-themed lotterywheel. Try your luck! Youwon't win anything though.
+969,Mini Toadversary,A model of the Toadversaryfrom the Training Area.Spouts water from its mouth.
+970,Mini Submarine,A model of a submarine.It even floats in water.
+971,Arzuros Carving,A reward for collectingShrine Ruins notes. No fishescapes its keen eye!
+972,Magnamalo Carving,A reward for collecting allShrine Ruins notes. It dripswith spite and aggression.
+973,Tetranadon Carving,A reward for collectingFrost Island notes. Looksreal ready to throw down.
+974,Goss Harag Carving,A reward for collecting allFrost Island notes. Looksreal ready to chop it up.
+975,Bishaten Carving,A reward for collectingFlooded Forest notes. All itlacks is fruit to lob about.
+976,Somnacanth Carving,A reward for collecting allFlooded Forest notes.Oddly hypnotic to behold.
+977,Izuchi Carving,A reward for collectingSandy Plains notes. Allfor one and one for all!
+978,Almudron Carving,"A reward for collecting allSandy Plains notes. Somehow,someway, it looks slimy."
+979,Aknosom Carving,A reward for collectingLava Caverns notes. There'sa fiery quality about it.
+980,Rakna-Kadaki Carving,A reward for collecting allLava Caverns notes. Creepyand crawly beyond belief.
+981,Ibushi Carving,"A reward for collectingRampage notes. Elegant, butlooks incomplete, somehow."
+982,Narwa Carving,A reward for collecting allRampage notes. A trophy tohonor a calamity ended.
+983,EZ Meat Bait,Favored by the FloodedForest Giganha. Used toattract hordes. <COL YEL>(Supply Item)</COL>
+984,Catalyst,Works with other materialsto enhance their effects.Cannot be used by itself.
+985,Net,A hardy net that can supportweight without breaking.Perfect for pitfall traps.
+986,Gunpowder Lv2,Combustible powder.Combine with level 1ammo to raise its level.
+987,Gunpowder Lv3,Highly combustible powder.Combine with level 1 ammoto raise its level.
+988,Steel Egg,An egg of glittering steel.Rare but useless to hunters.Fetches a good price.
+989,Silver Egg,An egg of glittering silver.Rare but useless to hunters.Fetches a very good price.
+990,Golden Egg,An egg of glittering gold.Incredibly valuable. Sellsfor a fortune.
+991,Commendation,A ticket awarded for showingcourage. Collect them and maybewonderful things will happen!
+992,High Commendation,A ticket awarded for immensecourage. Collect them and maybewonderful things will happen!
+993,Blazenut,Used to make gunpowderthat greatly increasesammo firepower.
+994,Flamenut,Used to make gunpowder thatincreases ammo firepower.
+995,White Liver,"A white-colored liver, popularfor its juicy texture.<COL YEL>(Account Item)</COL>"
+996,Popo Tongue,"Popo tongues are popular,healthy, and fun to eat.<COL YEL>(Account Item)</COL>"
+997,Slagtoth Oil,Oil extracted from a Slagtoth'sskin. Made into potions orsalves. <COL YEL>(Account Item)</COL>
+998,Monster Guts,Monster innards galore.A prized delicacy.<COL YEL>(Account Item)</COL>
+999,Ripened Mushroom,A Unique Mushroom made moreunique by maturing its aromaand flavor. <COL YEL>(Account Item)</COL>
+1000,Fine Stomach,A pretty Altaroth stomach.Its contents are delicious.<COL YEL>(Account Item)</COL>
+1001,Secret Stash,A pouch carried by a Melynx.Full of miscellaneous junk.<COL YEL>(Account Item)</COL>
+1002,Round Acorn,A perfectly round acorn. It'sa Felyne's beloved treasure.<COL YEL>(Account Item)</COL>
+1003,Gargwa Guano,Gargwa droppings. Can be driedand powdered for medicinaluse. <COL YEL>(Account Item)</COL>
+1004,Gargwa Egg,"An egg laid by a Gargwa.Common in food, yet stillvery costly. <COL YEL>(Account Item)</COL>"
+1005,Gold Gargwa Egg,A rare Gargwa egg. Theoriesabound as to reasons for thegold shine. <COL YEL>(Account Item)</COL>
+1006,Wyvern Tear,Bitter tears wept by wyvernson certain occasions.<COL YEL>(Account Item)</COL>
+1007,Large Wyvern Tear,"Large, bitter tears wept bywyverns on certain occasions.<COL YEL>(Account Item)</COL>"
+1008,Beast Tear,Bitter tears wept by fangedbeasts on certain occasions.<COL YEL>(Account Item)</COL>
+1009,Large Beast Tear,"Large, bitter tears wept byfanged beasts on certainoccasions. <COL YEL>(Account Item)</COL>"
+1010,Drone Substance,A pheromone sometimesreleased by Temnocerans.<COL YEL>(Account Item)</COL>
+1011,Queen Substance,A potent pheromone sometimesreleased by Temnocerans.<COL YEL>(Account Item)</COL>
+1012,Dragon Treasure,A shiny rock that elderdragons like to collect.<COL YEL>(Account Item)</COL>
+1013,Glittering Nacre,Beautiful orb formed withina Tetranadon. It shimmersethereally... <COL YEL>(Account Item)</COL>
+1014,Outfit Voucher,A ticket needed to forgelayered armor. For thefashion-conscious hunter.
+1015,<COLOR FF0000>#Rejected#</COLOR> I_1015_Name,<COLOR FF0000>#Rejected#</COLOR> I_1015_Explain
+1016,Buddy Ticket,Proof of you and your Buddies'rapport. Collect enough ofthem and it might pay off.
+1017,Kamura Ticket,Received for contributionsto Kamura Village. If yougive it to the Smithy...
+1018,Guild Ticket,A ticket issued by the GuildMaster to those who have aidedthe Guild.
+1019,Defender Ticket 1,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1020,Defender Ticket 2,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1021,Defender Ticket 3,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1022,Defender Ticket 4,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1023,Defender Ticket 5,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1024,Defender Ticket 6,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1025,Defender Ticket 7,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1026,Defender Ticket 8,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1027,King's Crest,"A token of an alpha Baggi.The bigger the crest,the stronger they are."
+1028,Rath Wingtalon+,Razor-sharp wing talons.Could slice througha tree trunk with ease.
+1029,Basarios Tail,A stubby Basarios tailcomposed of minerals moredurable than ore.
+1030,Basarios Pleura,The shell that covers aBasarios' torso. Relativelythin and easy to manipulate.
+1031,Basarios Pleura+,The rigid shell that coversa Basarios' torso. Still thinbut far denser than usual.
+1032,Jaggi Hide+,A quality Jaggi hide with avariety of uses. Popular forits beautiful hue.
+1033,Hard Armor Sphere,"A rigid, high-density armorsphere used to solidlyhelp improve armor."
+1034,Heavy Armor Sphere,"A heavy, high-density armorsphere used to greatlyhelp improve armor."
+1035,Aquaglow Jewel,An indispensable item usedin decorations.
+1036,Bloodrun Jewel,An indispensable item usedin decorations. A shame thatthese are so high-end.
+1037,Lazurite Jewel,An indispensable item usedin decorations. This onedoesn't come along often.
+1038,<COLOR FF0000>#Rejected#</COLOR> I_1038_Name,<COLOR FF0000>#Rejected#</COLOR> I_1038_Explain
+1039,<COLOR FF0000>#Rejected#</COLOR> I_1039_Name,<COLOR FF0000>#Rejected#</COLOR> I_1039_Explain
+1040,Jumbofruit,A massive fruit that restoreshealth when eaten. Removedpost-quest since it spoils.
+1041,Lagniapple,An apple popular amongstFelyne connoisseurs. Prizedby trainers and handlers.
+1042,Dung,Exactly as stated.Exudes a pungent smell.Used to make dung bombs.
+1043,Dung Bomb,A particularly odorous ballthat causes monsters to flee.
+1044,EZ Dung Bomb,A particularly odorous ballthat causes monsters to flee.<COL YEL>(Supply Item)</COL>
+1045,Kulu Coin,A coin given to those whohave bested a Kulu-Ya-Kuin the Arena.
+1046,Barroth Coin,A coin given to those whohave bested a Barroth inthe Arena.
+1047,<COLOR FF0000>#Rejected#</COLOR> I_1047_Name,<COLOR FF0000>#Rejected#</COLOR> I_1047_Explain
+1048,Nargacuga Coin,A coin given to those whohave bested a Nargacugain the Arena.
+1049,Barioth Coin,A coin given to those whohave bested a Barioth inthe Arena.
+1050,Rajang Coin,A coin given to those whohave bested a Rajang inthe Arena.
+1051,<COLOR FF0000>#Rejected#</COLOR> I_1051_Name,<COLOR FF0000>#Rejected#</COLOR> I_1051_Explain
+1052,<COLOR FF0000>#Rejected#</COLOR> I_1052_Name,<COLOR FF0000>#Rejected#</COLOR> I_1052_Explain
+1053,Bazelgeuse Coin,A coin given to those whohave bested a Bazelgeusein the Arena.
+1054,Pinnacle Coin,A commemorative coin bestowed onhunters who have mastered the craft.The value of its sheen? Priceless.
+1055,Hunter King Coin,A silver coin given to truehunters. Shines with all theglory of the Hunter King.
+1056,Ace Hunter Coin,A golden coin given to hunters atthe pinnacle of their field. Only asmall handful ever know such honor.
+1057,<COLOR FF0000>#Rejected#</COLOR> I_1057_Name,<COLOR FF0000>#Rejected#</COLOR> I_1057_Explain
+1058,<COLOR FF0000>#Rejected#</COLOR> I_1058_Name,<COLOR FF0000>#Rejected#</COLOR> I_1058_Explain
+1059,C. Piercing Ammo,<COLOR FF0000>#Rejected#</COLOR> I_1059_Explain
+1060,Gray Seed,"Seeds from a monster, soakedin explosive oil. Too dangerousto keep after a quest."
+1061,Crimson Seed,"Seeds from a monster, soakedin explosive oil. Too dangerousto keep after a quest."
+1062,Great Wirebug,Capable of sending hunterssoaring in a set direction.
+1063,2x Ballista Shot,<COLOR FF0000>#Rejected#</COLOR> I_1063_Explain
+1064,3x Ballista Shot,<COLOR FF0000>#Rejected#</COLOR> I_1064_Explain
+1065,<COLOR FF0000>#Rejected#</COLOR> I_1065_Name,<COLOR FF0000>#Rejected#</COLOR> I_1065_Explain
+1066,Friend Voucher,A ticket awarded as a tokenof hunting comradery. Use itwith the Melding Pot.
+1067,Water Barrel Bomb,A water-scattering blue seedbarrel bomb. Too dangerousto keep after a quest.
+1068,Thunder Barrel Bomb,An electrifying gold seedbarrel bomb. Too dangerousto keep after a quest.
+1069,Ice Barrel Bomb,A freezing silver seedbarrel bomb. Too dangerousto keep after a quest.
+1070,Blue Seed,"Seeds from a monster, soakedwith water. Too dangerous tokeep after a quest."
+1071,Gold Seed,"Seeds from a monster, buzzingwith electricity. Too dangerousto keep after a quest."
+1072,Silver Seed,"Seeds from a monster, chilledwith cold air. Too dangerousto keep after a quest."
+1073,2x Cannon Ammo,<COLOR FF0000>#Rejected#</COLOR> I_1073_Explain
+1074,2x Cannon Ammo+,<COLOR FF0000>#Rejected#</COLOR> I_1074_Explain
+1075,Defender Ticket 9,A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment.
+1076,Bhernastone,A decorative jewel importedfrom a rustic village.Fetches a good price.
+1077,Dundormarin,A decorative jewel importedfrom a mountain village.Fetches a good price.
+1078,Loc Lac Ore,A decorative jewel importedfrom a desert town.Fetches a good price.
+1079,Val Habar Quartz,A decorative jewel importedfrom a market of caravans.Fetches a good price.
+1080,Minegardenite,A decorative jewel importedfrom a hunting village.Fetches a good price.
+1081,<COLOR FF0000>#Rejected#</COLOR> I_1081_Name,<COLOR FF0000>#Rejected#</COLOR> I_1081_Explain
+1082,Wisdom Crystal,Crystal said to grant wisdom.Spectacles made from it offeran intelligent facade.
+1083,Wild Dark Leather,"Jet-black, glossy leather.Exudes an untamable flair.Material used for leg armor."
+1084,Disguise Device,Item used by a disguise-lovingPalico. Used to forge layeredarmor in her image.
+1085,Shady Crystal,Emits a unique aura due tothe light it absorbs. Materialused to make stylish glasses.
+1086,,
+1087,,
+1088,,
+1089,,
+1090,,
+1091,,
+1092,,
+1093,,
+1094,,
+1095,,
+1096,Mudbeetle,"A beetle that rolls up mud intoa ball. When thrown, the ballis imbued with water element."
+1097,Paratoad,A frog that discharges aparalyzing gas. Stops anycreature dead in its tracks.
+1098,Puppet Spider,"A spider that spits a stickyweb, which can be used likereins for Wyvern Riding."
+1099,Escuregot,A large green snail. Spraysa restorative mist whenused.
+1100,Aurortle,A turtle shouldering ananthill that can bear thebrunt of brutal hits.
+1101,Stinkmink,A weasel that sprays specialpheromones that attractmonsters.
+1102,Wailnard,A pheasant with a uniquered sac. Its call draws inlarge monsters.
+1103,Firebeetle,A beetle that rolls up lava rocksinto balls. Throw the ball toengulf a target in flames.
+1104,Thunderbeetle,A beetle that rolls up mudcontaining thunder-infusedmonster hair into balls. ZAP!
+1105,Snowbeetle,A beetle that rolls up snow intoice balls. Not recommendedfor a friendly snowball fight.
+1106,Trapbugs,Insects with sharp horns.A monster that tramplesthem will flee temporarily.
+1107,Lanternbug,"A glowing caterpillar thatexplodes when hit, dealinga fixed amount of damage."
+1108,Brewhare,A moss-covered rabbit. Canbe used to improve theeffects of some items.
+1109,Antidobra,A snake that shoots a poisonantidote. Can be used tocure and prevent poison.
+1110,Sleeptoad,"A frog that discharges asleep-inducing gas, sendingfoes straight to dreamland."
+1111,Poisontoad,A frog that dischargesa poisonous gas.
+1112,Blastoad,A frog that dischargesa combustible gasguaranteed to be a blast!
+1113,Spiribird,"A tiny, softly glowing bird.The aroma of the pollen onits body grants a boon."
+1114,Golden Spiribug,A golden insect.Restores some stamina whenpicked up and can be stored.
+1115,Gilded Spiribug,A honey-gold insect.Restores some stamina whenpicked up and can be stored.
+1116,Gustcrab,A crab that shares symbiosiswith fungi. Creates guststhat can propel you upwards.
+1117,,
