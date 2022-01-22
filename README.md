@@ -5,5 +5,5 @@ The project is written in C++/CLR (yes, I know, it's shit). I was too lazy to us
 Using CLR ended up making things much more complicated than they needed to be tho lol.
 
 # Building
-You need the C++/CLI/CLR Package from the Visual Studio Installer installed. Then simply open the solution in VS2019/2022 and build. It should build out of the box.
+You need the C++/CLI/CLR Package from the Visual Studio Installer. Then simply open the solution in VS2019/2022 and build. It should build out of the box.
 Intellisense marks some errors with array access in Window.cpp but you can ignore those, intellisense just doesn't work properly for C++/CLR.
