@@ -51,9 +51,6 @@ namespace RisePCItemEditor {
 			InitItemList("English");
 			InitSkillNames("English");
 			InitLanguages();
-
-			Skill1->DataSource = gcnew Generic::List<String^>(SkillNames);
-			Skill2->DataSource = gcnew Generic::List<String^>(SkillNames);
 		}
 
 	protected:
@@ -270,6 +267,8 @@ private: System::Windows::Forms::Button^ RawCharms;
 			// AddAllItems
 			// 
 			this->AddAllItems->AutoSize = true;
+			this->AddAllItems->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->AddAllItems->Location = System::Drawing::Point(12, 39);
 			this->AddAllItems->Name = L"AddAllItems";
 			this->AddAllItems->Size = System::Drawing::Size(87, 17);
@@ -288,6 +287,8 @@ private: System::Windows::Forms::Button^ RawCharms;
 			// Label_Amount
 			// 
 			this->Label_Amount->AutoSize = true;
+			this->Label_Amount->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->Label_Amount->Location = System::Drawing::Point(105, 65);
 			this->Label_Amount->Name = L"Label_Amount";
 			this->Label_Amount->Size = System::Drawing::Size(43, 13);
@@ -317,6 +318,8 @@ private: System::Windows::Forms::Button^ RawCharms;
 			// IncludeIllegalItems
 			// 
 			this->IncludeIllegalItems->AutoSize = true;
+			this->IncludeIllegalItems->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 			this->IncludeIllegalItems->Location = System::Drawing::Point(108, 39);
 			this->IncludeIllegalItems->Name = L"IncludeIllegalItems";
 			this->IncludeIllegalItems->Size = System::Drawing::Size(81, 17);
@@ -697,6 +700,8 @@ private: System::Windows::Forms::Button^ RawCharms;
 			// 
 			// ReadItemBox
 			// 
+			this->ReadItemBox->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->ReadItemBox->Location = System::Drawing::Point(437, 6);
 			this->ReadItemBox->Name = L"ReadItemBox";
 			this->ReadItemBox->Size = System::Drawing::Size(79, 43);

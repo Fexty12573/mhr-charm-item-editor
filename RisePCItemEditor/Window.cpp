@@ -829,6 +829,8 @@ System::Void RisePCItemEditor::Window::InitSkillNames(String^ langname)
 	}
 
 	SkillNames->Clear();
+	Skill1->Items->Clear();
+	Skill2->Items->Clear();
 
 	IO::FileStream^ stream = IO::File::OpenRead(path);
 	IO::StreamReader^ reader = gcnew IO::StreamReader(stream, System::Text::Encoding::UTF8);
@@ -838,6 +840,8 @@ System::Void RisePCItemEditor::Window::InitSkillNames(String^ langname)
 	{
 		array<String^>^ items = line->Split(gcnew array<wchar_t>(1) { ',' });
 		SkillNames->Add(items[1]);
+		Skill1->Items->Add(items[1]);
+		Skill2->Items->Add(items[1]);
 	}
 
 	reader->Close();

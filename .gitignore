@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/RisePCItemEditor/lang/+=¦ÕÍð+-.ini
+/RisePCItemEditor/lang/items_+=¦ÕÍð+-.csv
+/RisePCItemEditor/lang/skills_+=¦ÕÍð+-.csv
