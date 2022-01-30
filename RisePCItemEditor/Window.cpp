@@ -513,8 +513,8 @@ System::Void RisePCItemEditor::Window::InitItemList(String^ langname)
 System::String^ RisePCItemEditor::Window::FormatCharmForFile(CharmData^ charm)
 {
 	return String::Format("{0},{1},{2},{3},{4},{5},{6},{7}\n",
-		charm->Skill1, charm->Skill1Level,
-		charm->Skill2, charm->Skill2Level,
+		SkillNames[charm->Skill1], charm->Skill1Level,
+		SkillNames[charm->Skill2], charm->Skill2Level,
 		GetFirstSlot(charm), GetSecondSlot(charm), GetThirdSlot(charm),
 		int(charm->Rarity)
 	);
