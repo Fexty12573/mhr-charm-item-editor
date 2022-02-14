@@ -174,19 +174,19 @@ System::String^ RisePCItemEditor::Window::FormatCharmName(CharmData^ charm)
 
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < (int)charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -199,19 +199,19 @@ System::UInt32 RisePCItemEditor::Window::GetFirstSlot(CharmData^ charm)
 {
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < (int)charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -224,19 +224,19 @@ System::UInt32 RisePCItemEditor::Window::GetSecondSlot(CharmData^ charm)
 {
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < (int)charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -249,19 +249,19 @@ System::UInt32 RisePCItemEditor::Window::GetThirdSlot(CharmData^ charm)
 {
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < (int)charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < (int)charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -724,7 +724,7 @@ System::Void RisePCItemEditor::Window::RawCharms_Click(System::Object^ sender, S
 	auto charms = editor->GetReturn();
 	Charms->Clear();
 
-	for (int i = 0; i < (int)charms->Count; i++)
+	for (int i = 0; i < charms->Count; i++)
 	{
 		WriteCharmToGame(charms[i]);
 	}
