@@ -18,6 +18,35 @@ enum class Rarity : UInt32 {
 	Rarity2_Legacy = 0x1010000A
 };
 
+enum Offsets : uintptr_t {
+	// Items
+	ItemBox = 0x78,
+
+	InventoryList = 0x18,
+	InventorySize = 0x18,
+
+	Items = 0x10,
+	ItemInfo = 0x20,
+	ItemCount = 0x14,
+	ItemID = 0x10,
+
+	FINDME = 0x08,
+
+	// Equipment
+	EquipmentBox = 0x80,
+
+	EquipmentList = 0x20,
+	EquipmentItems = 0x10,
+	EquipmentSize = 0x18,
+
+	// Currency
+	HandMoney = 0x58,
+	Zenny = 0x18,
+
+	VillagePoints = 0x60,
+	Points = 0x10
+};
+
 enum class EquipmentType : UInt32 {
 	Empty,
 	Weapon,
@@ -26,7 +55,7 @@ enum class EquipmentType : UInt32 {
 	LvBuffCage // ???
 };
 
-ref struct CharmData {
+public ref struct CharmData {
 	UInt32 Index;
 	Rarity Rarity;
 

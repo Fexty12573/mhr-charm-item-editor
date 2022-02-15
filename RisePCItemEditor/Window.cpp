@@ -16,17 +16,17 @@ struct Params {
 System::Void RisePCItemEditor::Window::AddItemsFunc(uintptr_t dataManager, UINT32 amount, bool clear)
 {
 	uintptr_t itemBox = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + 0x78), &itemBox, sizeof(uintptr_t), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + Offsets::ItemBox), &itemBox, sizeof(uintptr_t), NULL);
 
 	uintptr_t inventoryList = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(itemBox + 0x18), &inventoryList, sizeof(uintptr_t), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(itemBox + Offsets::InventoryList), &inventoryList, sizeof(uintptr_t), NULL);
 
 	uintptr_t items = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + 0x10), &items, sizeof(uintptr_t), NULL);
-	items += 0x20;
+	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + Offsets::Items), &items, sizeof(uintptr_t), NULL);
+	items += Offsets::ItemInfo;
 
 	UINT32 size = 0;
-	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + 0x18), &size, sizeof(UINT32), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + Offsets::InventorySize), &size, sizeof(UINT32), NULL);
 
 	for (UINT32 i = 0; i < size; ++i)
 	{
@@ -51,7 +51,7 @@ System::Void RisePCItemEditor::Window::AddItemsFunc(uintptr_t dataManager, UINT3
 		ReadProcessMemory(ProcessHandle, LPVOID(items), &item, sizeof(uintptr_t), NULL);
 
 		uintptr_t itemData = NULL;
-		ReadProcessMemory(ProcessHandle, LPVOID(item + 0x20), &itemData, sizeof(uintptr_t), NULL);
+		ReadProcessMemory(ProcessHandle, LPVOID(item + Offsets::ItemInfo), &itemData, sizeof(uintptr_t), NULL);
 
 		if (itemData)
 		{
@@ -60,29 +60,29 @@ System::Void RisePCItemEditor::Window::AddItemsFunc(uintptr_t dataManager, UINT3
 				UINT32 null = 0;
 				UINT32 empty_id = 0x4000000;
 
-				WriteProcessMemory(ProcessHandle, LPVOID(itemData + 0x10), &empty_id, sizeof(null), NULL); // ID
-				WriteProcessMemory(ProcessHandle, LPVOID(itemData + 0x14), &null, sizeof(null), NULL); // Amount
+				WriteProcessMemory(ProcessHandle, LPVOID(itemData + Offsets::ItemID), &empty_id, sizeof(null), NULL); // ID
+				WriteProcessMemory(ProcessHandle, LPVOID(itemData + Offsets::ItemCount), &null, sizeof(null), NULL); // Amount
 			}
 			else
 			{
 				UINT32 count = 0;
-				ReadProcessMemory(ProcessHandle, LPVOID(itemData + 0x14), &count, sizeof(UINT32), NULL);
+				ReadProcessMemory(ProcessHandle, LPVOID(itemData + Offsets::ItemCount), &count, sizeof(UINT32), NULL);
 
 				if (AddAllItems->Checked)
 				{
 					UINT32 id = i + 0x4100000; // ids are offset by that number for some reason
-					WriteProcessMemory(ProcessHandle, LPVOID(itemData + 0x10), &id, sizeof(id), NULL);
-					WriteProcessMemory(ProcessHandle, LPVOID(itemData + 0x14), &amount, sizeof(amount), NULL);
+					WriteProcessMemory(ProcessHandle, LPVOID(itemData + Offsets::ItemID), &id, sizeof(id), NULL);
+					WriteProcessMemory(ProcessHandle, LPVOID(itemData + Offsets::ItemCount), &amount, sizeof(amount), NULL);
 				}
 				else
 				{
 					if (count > 0)
-						WriteProcessMemory(ProcessHandle, LPVOID(itemData + 0x14), &amount, sizeof(amount), NULL);
+						WriteProcessMemory(ProcessHandle, LPVOID(itemData + Offsets::ItemCount), &amount, sizeof(amount), NULL);
 				}
 			}
 		}
 
-		items += 0x8;
+		items += 0x08;
 	}
 }
 
@@ -174,19 +174,19 @@ System::String^ RisePCItemEditor::Window::FormatCharmName(CharmData^ charm)
 
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -199,19 +199,19 @@ System::UInt32 RisePCItemEditor::Window::GetFirstSlot(CharmData^ charm)
 {
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -224,19 +224,19 @@ System::UInt32 RisePCItemEditor::Window::GetSecondSlot(CharmData^ charm)
 {
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -249,19 +249,19 @@ System::UInt32 RisePCItemEditor::Window::GetThirdSlot(CharmData^ charm)
 {
 	UInt32 slots[3] = { 0 };
 
-	for (int i = 0; i < charm->Level3Slots; i++)
+	for (UInt32 i = 0; i < charm->Level3Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 3; break; }
 	}
 
-	for (int i = 0; i < charm->Level2Slots; i++)
+	for (UInt32 i = 0; i < charm->Level2Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 2; break; }
 	}
 
-	for (int i = 0; i < charm->Level1Slots; i++)
+	for (UInt32 i = 0; i < charm->Level1Slots; i++)
 	{
 		for (UInt32& slot : slots)
 			if (!slot) { slot = 1; break; }
@@ -311,15 +311,15 @@ System::Void RisePCItemEditor::Window::WriteCharmToGame(CharmData^ charm)
 	uintptr_t dataManager = GetDataManager().ToUInt64();
 
 	uintptr_t eqBox = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + 0x80), &eqBox, sizeof(eqBox), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + Offsets::EquipmentBox), &eqBox, sizeof(eqBox), NULL);
 
 	uintptr_t eqList = NULL;
 	UInt32 size = 0;
-	ReadProcessMemory(ProcessHandle, LPVOID(eqBox + 0x20), &eqList, sizeof(eqList), NULL);
-	ReadProcessMemory(ProcessHandle, LPVOID(eqList + 0x18), &size, sizeof(size), NULL); // mSize
-	ReadProcessMemory(ProcessHandle, LPVOID(eqList + 0x10), &eqList, sizeof(eqList), NULL); // mItems
+	ReadProcessMemory(ProcessHandle, LPVOID(eqBox + Offsets::EquipmentList), &eqList, sizeof(eqList), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentSize), &size, sizeof(size), NULL); // mSize
+	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentItems), &eqList, sizeof(eqList), NULL); // mItems
 
-	eqList += 0x20 + charm->Index * 0x8;
+	eqList += Offsets::EquipmentList + charm->Index * 0x8;
 	{
 		uintptr_t item = NULL;
 		ReadProcessMemory(ProcessHandle, LPVOID(eqList), &item, sizeof(item), NULL);
@@ -379,17 +379,17 @@ System::Void RisePCItemEditor::Window::CollectItems()
 	auto dataMgr = GetDataManager().ToUInt64();
 
 	uintptr_t itemBox = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(dataMgr + 0x78), &itemBox, sizeof(uintptr_t), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(dataMgr + Offsets::ItemBox), &itemBox, sizeof(uintptr_t), NULL);
 
 	uintptr_t inventoryList = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(itemBox + 0x18), &inventoryList, sizeof(uintptr_t), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(itemBox + Offsets::InventoryList), &inventoryList, sizeof(uintptr_t), NULL);
 
 	uintptr_t items = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + 0x10), &items, sizeof(uintptr_t), NULL);
-	items += 0x20;
+	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + Offsets::Items), &items, sizeof(uintptr_t), NULL);
+	items += Offsets::ItemInfo;
 
 	UINT32 size = 0;
-	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + 0x18), &size, sizeof(UINT32), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + InventorySize), &size, sizeof(UINT32), NULL);
 
 	for (UInt32 i = 0; i < size; i++, items += 0x8)
 	{
@@ -397,14 +397,14 @@ System::Void RisePCItemEditor::Window::CollectItems()
 		ReadProcessMemory(ProcessHandle, LPVOID(items), &item, sizeof(uintptr_t), NULL);
 
 		uintptr_t itemData = NULL;
-		ReadProcessMemory(ProcessHandle, LPVOID(item + 0x20), &itemData, sizeof(uintptr_t), NULL);
+		ReadProcessMemory(ProcessHandle, LPVOID(item + Offsets::ItemInfo), &itemData, sizeof(uintptr_t), NULL);
 
 		if (itemData)
 		{
 			UInt32 id, count;
 			
-			RPM(itemData + 0x10, &id, sizeof(id));
-			RPM(itemData + 0x14, &count, sizeof(count));
+			RPM(itemData + Offsets::ItemInfo, &id, sizeof(id));
+			RPM(itemData + Offsets::ItemCount, &count, sizeof(count));
 
 			Itembox->Add(gcnew ItemData(id, count));
 
@@ -419,17 +419,17 @@ System::Void RisePCItemEditor::Window::WriteItems()
 	auto dataMgr = GetDataManager().ToUInt64();
 
 	uintptr_t itemBox = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(dataMgr + 0x78), &itemBox, sizeof(uintptr_t), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(dataMgr + Offsets::ItemBox), &itemBox, sizeof(uintptr_t), NULL);
 
 	uintptr_t inventoryList = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(itemBox + 0x18), &inventoryList, sizeof(uintptr_t), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(itemBox + Offsets::InventoryList), &inventoryList, sizeof(uintptr_t), NULL);
 
 	uintptr_t items = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + 0x10), &items, sizeof(uintptr_t), NULL);
-	items += 0x20;
+	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + Offsets::Items), &items, sizeof(uintptr_t), NULL);
+	items += Offsets::ItemInfo;
 
 	UINT32 size = 0;
-	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + 0x18), &size, sizeof(UINT32), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(inventoryList + Offsets::InventorySize), &size, sizeof(UINT32), NULL);
 
 	for (UInt32 i = 0; i < size; i++, items += 0x8)
 	{
@@ -437,14 +437,14 @@ System::Void RisePCItemEditor::Window::WriteItems()
 		ReadProcessMemory(ProcessHandle, LPVOID(items), &item, sizeof(uintptr_t), NULL);
 
 		uintptr_t itemData = NULL;
-		ReadProcessMemory(ProcessHandle, LPVOID(item + 0x20), &itemData, sizeof(uintptr_t), NULL);
+		ReadProcessMemory(ProcessHandle, LPVOID(item + Offsets::ItemInfo), &itemData, sizeof(uintptr_t), NULL);
 
 		if (itemData)
 		{
 			UInt32 id = Itembox[i]->ID, count = Itembox[i]->Amount;
 
-			WPM(itemData + 0x10, &id, sizeof(id));
-			WPM(itemData + 0x14, &count, sizeof(count));
+			WPM(itemData + Offsets::ItemID, &id, sizeof(id));
+			WPM(itemData + Offsets::ItemCount, &count, sizeof(count));
 		}
 	}
 }
@@ -472,7 +472,6 @@ System::Void RisePCItemEditor::Window::ApplyItembox()
 		if (id < 0x4000000) id += 0x4100000;
 
 		UInt32 amount = UInt32::Parse((String^)row->Cells[2]->Value);
-
 		Itembox->Add(gcnew ItemData(id, amount));
 	}
 }
@@ -527,15 +526,15 @@ Generic::List<CharmData^>^ RisePCItemEditor::Window::GetCharmsFromEquipmentBox()
 	uintptr_t dataManager = GetDataManager().ToUInt64();
 
 	uintptr_t eqBox = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + 0x80), &eqBox, sizeof(eqBox), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + Offsets::EquipmentBox), &eqBox, sizeof(eqBox), NULL);
 
 	uintptr_t eqList = NULL;
 	UInt32 size = 0;
-	ReadProcessMemory(ProcessHandle, LPVOID(eqBox + 0x20), &eqList, sizeof(eqList), NULL);
-	ReadProcessMemory(ProcessHandle, LPVOID(eqList + 0x18), &size, sizeof(size), NULL); // mSize
-	ReadProcessMemory(ProcessHandle, LPVOID(eqList + 0x10), &eqList, sizeof(eqList), NULL); // mItems
+	ReadProcessMemory(ProcessHandle, LPVOID(eqBox + Offsets::EquipmentList), &eqList, sizeof(eqList), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentSize), &size, sizeof(size), NULL); // mSize
+	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentItems), &eqList, sizeof(eqList), NULL); // mItems
 
-	eqList += 0x20;
+	eqList += Offsets::EquipmentList;
 	for (UInt32 i = 0; i < size; ++i, eqList += 0x8)
 	{
 		uintptr_t item = NULL;
@@ -651,7 +650,7 @@ System::Void RisePCItemEditor::Window::ImportCharms_Click(System::Object^ sender
 			}
 			else // Skills by Names
 			{
-				for (UInt32 i = 0; i < SkillNames->Count; i++)
+				for (int i = 0; i < SkillNames->Count; i++)
 				{
 					if (items[0] == SkillNames[i])
 						charm->Skill1 = i;
@@ -892,10 +891,10 @@ System::Void RisePCItemEditor::Window::SetZenny_Click(System::Object^ sender, Sy
 	uintptr_t dataManager = GetDataManager().ToUInt64();
 
 	uintptr_t handMoney = NULL;
-	RPM(dataManager + 0x58, &handMoney, sizeof(handMoney));
+	RPM(dataManager + Offsets::HandMoney, &handMoney, sizeof(handMoney));
 
 	UInt32 value = Decimal::ToUInt32(ZennyAmount->Value);
-	WPM(handMoney + 0x18, &value, sizeof(value));
+	WPM(handMoney + Offsets::Zenny, &value, sizeof(value));
 }
 
 System::Void RisePCItemEditor::Window::SetPoints_Click(System::Object^ sender, System::EventArgs^ e)
@@ -903,10 +902,10 @@ System::Void RisePCItemEditor::Window::SetPoints_Click(System::Object^ sender, S
 	uintptr_t dataManager = GetDataManager().ToUInt64();
 
 	uintptr_t villagePoints = NULL;
-	RPM(dataManager + 0x60, &villagePoints, sizeof(villagePoints));
+	RPM(dataManager + Offsets::VillagePoints, &villagePoints, sizeof(villagePoints));
 
 	UInt32 value = Decimal::ToUInt32(PointsAmount->Value);
-	WPM(villagePoints + 0x10, &value, sizeof(value));
+	WPM(villagePoints + Offsets::Points, &value, sizeof(value));
 }
 
 System::Void RisePCItemEditor::Window::InitLanguages()
@@ -979,15 +978,15 @@ System::Void RisePCItemEditor::Window::ReadEquipmentBox_Click(System::Object^ se
 	uintptr_t dataManager = GetDataManager().ToUInt64();
 
 	uintptr_t eqBox = NULL;
-	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + 0x80), &eqBox, sizeof(eqBox), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(dataManager + Offsets::EquipmentBox), &eqBox, sizeof(eqBox), NULL);
 
 	uintptr_t eqList = NULL;
 	UInt32 size = 0;
-	ReadProcessMemory(ProcessHandle, LPVOID(eqBox + 0x20), &eqList, sizeof(eqList), NULL);
-	ReadProcessMemory(ProcessHandle, LPVOID(eqList + 0x18), &size, sizeof(size), NULL); // mSize
-	ReadProcessMemory(ProcessHandle, LPVOID(eqList + 0x10), &eqList, sizeof(eqList), NULL); // mItems
+	ReadProcessMemory(ProcessHandle, LPVOID(eqBox + Offsets::EquipmentList), &eqList, sizeof(eqList), NULL);
+	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentSize), &size, sizeof(size), NULL); // mSize
+	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentItems), &eqList, sizeof(eqList), NULL); // mItems
 
-	eqList += 0x20;
+	eqList += Offsets::EquipmentList;
 	for (UInt32 i = 0; i < size; ++i, eqList += 0x8)
 	{
 		uintptr_t item = NULL;
