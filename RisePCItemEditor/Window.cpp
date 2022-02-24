@@ -403,7 +403,7 @@ System::Void RisePCItemEditor::Window::CollectItems()
 		{
 			UInt32 id, count;
 			
-			RPM(itemData + Offsets::ItemInfo, &id, sizeof(id));
+			RPM(itemData + Offsets::ItemID, &id, sizeof(id));
 			RPM(itemData + Offsets::ItemCount, &count, sizeof(count));
 
 			Itembox->Add(gcnew ItemData(id, count));
@@ -986,7 +986,7 @@ System::Void RisePCItemEditor::Window::ReadEquipmentBox_Click(System::Object^ se
 	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentSize), &size, sizeof(size), NULL); // mSize
 	ReadProcessMemory(ProcessHandle, LPVOID(eqList + Offsets::EquipmentItems), &eqList, sizeof(eqList), NULL); // mItems
 
-	eqList += Offsets::EquipmentList;
+	eqList += Offsets::EquipmentListStart;
 	for (UInt32 i = 0; i < size; ++i, eqList += 0x8)
 	{
 		uintptr_t item = NULL;

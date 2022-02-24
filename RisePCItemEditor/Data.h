@@ -35,9 +35,11 @@ enum Offsets : uintptr_t {
 	// Equipment
 	EquipmentBox = 0x80,
 
-	EquipmentList = 0x20,
+	EquipmentList = 0x28,
 	EquipmentItems = 0x10,
 	EquipmentSize = 0x18,
+
+	EquipmentListStart = 0x20,
 
 	// Currency
 	HandMoney = 0x58,
