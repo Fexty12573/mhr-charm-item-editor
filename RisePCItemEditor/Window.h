@@ -870,7 +870,7 @@ private: System::Windows::Forms::Button^ RawCharms;
 
 	private: HANDLE ProcessHandle = nullptr;
 	//private: static LPVOID DataManagerAddress = LPVOID(0x14C093638); // For Early Access game
-	private: static LPVOID DataManagerAddress = LPVOID(0x14C0207E0);
+	private: static LPVOID DataManagerAddress = LPVOID(0x14C0578C0);
 	private: Generic::List<UINT32>^ ExcludeList;
 	private: Generic::List<CharmData^>^ Charms;
 	private: Generic::List<String^>^ SkillNames;
