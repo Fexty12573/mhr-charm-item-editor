@@ -364,3 +364,8 @@ FodyWeavers.xsd
 /RisePCItemEditor/lang/+=¦ÕÍð+-.ini
 /RisePCItemEditor/lang/items_+=¦ÕÍð+-.csv
 /RisePCItemEditor/lang/skills_+=¦ÕÍð+-.csv
+/Reframework Crash Report
+/RiseCharmEditorREF/dependencies/rapidfuzz-cpp-1.0.1/bench
+/RiseCharmEditorREF/dependencies/rapidfuzz-cpp-1.0.1/cmake
+/RiseCharmEditorREF/dependencies/rapidfuzz-cpp-1.0.1
+/RiseCharmEditorREF/cpp.hint

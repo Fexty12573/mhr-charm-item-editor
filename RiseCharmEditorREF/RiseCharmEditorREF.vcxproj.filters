@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dependencies">
+      <UniqueIdentifier>{3fa7cbe5-b943-4fe3-be6a-893aa78ee442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\imgui">
+      <UniqueIdentifier>{af0ba7b1-9d36-4dbf-b18f-4b6ba3932be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\rendering">
+      <UniqueIdentifier>{f15ca576-d49d-416f-aea0-e997ffd447fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\reframework">
+      <UniqueIdentifier>{1920d11b-2e5c-47b7-b453-883b2c608636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\rapidfuzz">
+      <UniqueIdentifier>{abb28a40-1b4f-47cc-bfdd-c8bac8e86a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\rapidfuzz\distance">
+      <UniqueIdentifier>{5af33785-6a0f-4f5d-beb0-5dd9bc220df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\rapidfuzz\details">
+      <UniqueIdentifier>{98042ca2-2f09-43f2-859c-7a38f4850102}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\d3d11.cpp">
+      <Filter>Header Files\dependencies\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\d3d12.cpp">
+      <Filter>Header Files\dependencies\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RiseDataEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_inputcombo.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="reframework\utility.cpp">
+      <Filter>Header Files\dependencies\reframework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\font_robotomedium.hpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\re2_imconfig.hpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\d3d11.hpp">
+      <Filter>Header Files\dependencies\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\d3d12.hpp">
+      <Filter>Header Files\dependencies\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shared.hpp">
+      <Filter>Header Files\dependencies\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RiseDataEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\fuzz.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\rapidfuzz_all.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Hamming.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Indel.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\LCSseq.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Levenshtein.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\common.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\common_impl.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\intrinsics.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\matching_blocks.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\SplittedSentenceView.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\type_traits.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\details\types.hpp">
+      <Filter>Header Files\dependencies\rapidfuzz\details</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_inputcombo.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="reframework\API.h">
+      <Filter>Header Files\dependencies\reframework</Filter>
+    </ClInclude>
+    <ClInclude Include="reframework\API.hpp">
+      <Filter>Header Files\dependencies\reframework</Filter>
+    </ClInclude>
+    <ClInclude Include="reframework\utility.h">
+      <Filter>Header Files\dependencies\reframework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\fuzz.impl">
+      <Filter>Header Files\dependencies\rapidfuzz</Filter>
+    </None>
+    <None Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Hamming.impl">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </None>
+    <None Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Indel.impl">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </None>
+    <None Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\LCSseq.impl">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </None>
+    <None Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Levenshtein.impl">
+      <Filter>Header Files\dependencies\rapidfuzz\distance</Filter>
+    </None>
+  </ItemGroup>
+</Project>
