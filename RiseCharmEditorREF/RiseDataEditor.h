@@ -81,7 +81,7 @@ private:
     void render_ui_charm_editor();
     void render_ui_player_editor() const;
     void render_ui_item_editor();
-    void render_ui_loadout_editor();
+    void render_ui_loadout_editor() const;
 
     [[nodiscard]] std::string get_save_as_location() const;
     [[nodiscard]] std::string get_open_location() const;
@@ -131,6 +131,8 @@ private:
     ImFont* m_font_korean{};
     ImFont* m_active_font{};
 
+    Language m_active_language{};
+
     std::unordered_map<Language, const char*> m_language_file_map = {
         {Language::JPN, "jpn"},
         {Language::ENG, "eng"},
@@ -147,19 +149,6 @@ private:
         {Language::ARA, "ara"}
     };
 
-    /*static constexpr const char* m_rarity_text[] = {
-        "Rarity 1",
-        "Rarity 2",
-        "Rarity 3", 
-        "Rarity 4", 
-        "Rarity 5", 
-        "Rarity 6", 
-        "Rarity 7",
-        "Rarity 4 (Novice)",
-        "Rarity 3 (Kinship)",
-        R"(Rarity 12 (???))",
-        "Rarity 2 (Legacy)"
-    };*/
     static constexpr const char* m_em_act_category[] = {
         "Normal",
         "Move",

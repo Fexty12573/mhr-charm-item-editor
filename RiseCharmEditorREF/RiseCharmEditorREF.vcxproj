@@ -133,7 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>FMT_HEADER_ONLY;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalIncludeDirectories>$(projectdir)dependencies\rapidfuzz-cpp-1.0.1</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -152,7 +152,6 @@
     <ClCompile Include="imgui\imgui_impl_dx12.cpp" />
     <ClCompile Include="imgui\imgui_impl_win32.cpp" />
     <ClCompile Include="imgui_inputcombo.cpp" />
-    <ClCompile Include="IniFile.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="reframework\utility.cpp" />
     <ClCompile Include="rendering\d3d11.cpp" />
@@ -180,7 +179,6 @@
     <ClInclude Include="imgui\imgui_impl_win32.h" />
     <ClInclude Include="imgui\re2_imconfig.hpp" />
     <ClInclude Include="imgui_inputcombo.h" />
-    <ClInclude Include="IniFile.h" />
     <ClInclude Include="plugin.h" />
     <ClInclude Include="reframework\API.h" />
     <ClInclude Include="reframework\API.hpp" />

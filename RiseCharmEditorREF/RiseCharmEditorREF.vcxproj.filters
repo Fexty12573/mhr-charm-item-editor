@@ -57,9 +57,6 @@
     <ClCompile Include="RiseDataEditor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IniFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="imgui_inputcombo.cpp">
       <Filter>Header Files\dependencies\imgui</Filter>
     </ClCompile>
@@ -96,9 +93,6 @@
       <Filter>Header Files\dependencies\rendering</Filter>
     </ClInclude>
     <ClInclude Include="RiseDataEditor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IniFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance.hpp">

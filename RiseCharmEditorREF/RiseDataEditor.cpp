@@ -15,7 +15,6 @@
 #include <fmt/format.h>
 #include <nlohmann/json.hpp>
 
-#include <filesystem>
 #include <fstream>
 #include <regex>
 #include <vector>
@@ -721,9 +720,9 @@ void RiseDataEditor::render_ui_item_editor() {
             if (ImGui::BeginCombo("##item name", get_itemname(*id).c_str())) {
                 for (auto j = m_min_item_id; j < m_max_item_id; ++j) {
                     const bool is_selected = i == *id;
-
+                    
                     const auto name = get_itemname(j);
-                    if (m_item_filter.empty() || name.find(m_item_filter) != std::string::npos) {
+                    if (m_item_filter.empty() || name.contains(m_item_filter)) {
                         if (ImGui::Selectable(get_itemname(j).c_str(), is_selected)) {
                             *id = j;
                         }
@@ -753,9 +752,9 @@ void RiseDataEditor::render_ui_item_editor() {
     ImGui::EndChild();
 }
 
-void RiseDataEditor::render_ui_loadout_editor() {
+void RiseDataEditor::render_ui_loadout_editor() const {
     const auto set_list = *m_equip_data_manager->get_field<API::ManagedObject*>("_PlEquipMySetList");
-    API::Method* get_armor_id = nullptr;
+    const API::Method* get_armor_id = nullptr;
     
     const auto count = utility::call<uint32_t>(set_list, "get_Count");
     for (auto i = 0u; i < count; ++i) {
@@ -815,6 +814,8 @@ std::string RiseDataEditor::get_open_location() const {
 }
 
 void RiseDataEditor::change_language(Language language) {
+    m_active_language = language;
+
     std::string filename = fmt::format("./reframework/plugins/rise_charm_editor/language/{}_ed_ref.json", m_language_file_map.at(language));
     OutputDebugStringA(fmt::format("[FEXTY] Attempting to open {}", filename).c_str());
 
