@@ -1,5 +1,7 @@
 #include <Windows.h>
 
+#include <mutex>
+
 #include "plugin.h"
 #include "RiseDataEditor.h"
 
@@ -12,7 +14,7 @@
 
 using namespace reframework;
 using REGenericFunction = void*(*)(...);
-
+std::mutex g_mutex;
 
 void initialize() {
     if (g_initialized) {
@@ -20,6 +22,7 @@ void initialize() {
     }
 
     if (!IMGUI_CHECKVERSION()) {
+        OutputDebugStringA("[FEXTY] stupid imgui error");
         return;
     }
     ImGui::CreateContext();
@@ -54,7 +57,22 @@ void render() {
     RiseDataEditor::get()->render_ui();
 }
 
+void get_some_item_names() {
+    std::lock_guard l{g_mutex};
+    if (!g_initialized) {
+        initialize();
+    }
+    ImGui_ImplWin32_NewFrame();
+    ImGui::NewFrame();
+
+    render();
+
+    ImGui::EndFrame();
+    ImGui::Render();
+}
+
 void on_present() {
+    std::lock_guard l{g_mutex};
     if (!g_initialized) {
         initialize();
     }
@@ -80,14 +98,6 @@ void on_present() {
         }
 
         ImGui_ImplDX12_NewFrame();
-        ImGui_ImplWin32_NewFrame();
-        ImGui::NewFrame();
-
-        render();
-
-        ImGui::EndFrame();
-        ImGui::Render();
-
         g_d3d12.render_imgui();
     }
 }
@@ -133,6 +143,7 @@ RE_EXPORT bool reframework_plugin_initialize(const REFrameworkPluginInitializePa
     funcs->on_message(reinterpret_cast<REFOnMessageCb>(on_message));
     funcs->on_device_reset(on_device_reset);
     funcs->on_present(on_present);
+    funcs->on_pre_application_entry("BeginRendering", get_some_item_names);
 
     return true;
 }

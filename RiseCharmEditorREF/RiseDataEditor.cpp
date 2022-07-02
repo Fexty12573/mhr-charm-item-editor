@@ -1,4 +1,5 @@
 #include "RiseDataEditor.h"
+#include "IllegalItems.h"
 
 #include "imgui/font_robotomedium.hpp"
 #include "imgui/InsanBold_Arabic.hpp"
@@ -207,6 +208,9 @@ bool RiseDataEditor::initialize() {
         }
     }
 
+    change_language(Language::ENG);
+    OutputDebugStringA("[FEXTY] Charm Editor Initialized");
+
     m_initialized = true;
     return m_initialized;
 }
@@ -305,7 +309,6 @@ void RiseDataEditor::set_imgui_style() {
     fonts->Build();
 
     m_active_font = m_font_latin_cyrillic;
-    change_language(Language::ENG);
 }
 
 uint32_t* RiseDataEditor::slot_count_to_slots(const uint32_t counts[3], uint32_t slots[3]) {
@@ -530,7 +533,7 @@ void RiseDataEditor::render_ui_charm_editor() {
             ImGui::PopID();
         }
 
-        ImGui::SliderInt((m_label_slot + " 1").c_str(), reinterpret_cast<int*>(&charm.slots[0]), 0, 3);
+        ImGui::SliderInt((m_label_slot + " 1").c_str(), reinterpret_cast<int*>(&charm.slots[0]), 0, 4);
         ImGui::SliderInt((m_label_slot + " 2").c_str(), reinterpret_cast<int*>(&charm.slots[1]), 0, static_cast<int>(charm.slots[0]));
         ImGui::SliderInt((m_label_slot + " 3").c_str(), reinterpret_cast<int*>(&charm.slots[2]), 0, static_cast<int>(charm.slots[1]));
 
@@ -574,6 +577,7 @@ void RiseDataEditor::render_ui_item_editor() {
     const auto items = *m_item_box->get_field<API::ManagedObject*>("_InventoryList");
     constexpr uint32_t step = 1, step_l = 10;
     bool clear_inv = false;
+    bool delete_illegal = false;
 
     if (ImGui::Button((m_button_add_all + " x1000").c_str())) {
         utility::call(m_data_manager, "addAllItemToItemBox1000");
@@ -597,6 +601,11 @@ void RiseDataEditor::render_ui_item_editor() {
                 m_selected_items[i] = false;
             }
         }
+    }
+
+    ImGui::SameLine();
+    if (ImGui::Button(m_button_delete_illegal.c_str())) {
+        delete_illegal = true;
     }
 
     ImGui::InputText(m_label_itemlist_filter.c_str(), &m_item_filter);
@@ -651,15 +660,19 @@ void RiseDataEditor::render_ui_item_editor() {
         }
 
         for (auto i = 0u; i < count; ++i) {
-            if (clear_inv) {
-                utility::call(m_item_box, "clearInventory", i);
-            }
-
             const auto item = utility::call(items, "get_Item", i);
             const auto data = *item->get_field<API::ManagedObject*>("_ItemCount");
 
             const auto id = data->get_field<uint32_t>("_Id");
             const auto amt = data->get_field<int32_t>("_Num");
+
+            if (clear_inv) {
+                utility::call(m_item_box, "clearInventory", i);
+            } else if (delete_illegal) {
+                if (std::ranges::find(g_illegal_items, *id) != g_illegal_items.end()) {
+                    utility::call(m_item_box, "clearInventory", i);
+                }
+            }
 
             ImGui::PushID(static_cast<int>(i));
             ImGui::TableNextRow();
@@ -866,6 +879,7 @@ void RiseDataEditor::change_language(Language language) {
     m_button_add_all = itembox_editor.value("m_button_add_all", "STR_NOT_FOUND");
     m_button_clear_itembox = itembox_editor.value("m_button_clear_itembox", "STR_NOT_FOUND");
     m_button_clear_selected = itembox_editor.value("m_button_clear_selected", "STR_NOT_FOUND");
+    m_button_delete_illegal = itembox_editor.value("m_button_delete_illegal", "STR_NOT_FOUND");
     m_button_export_items = itembox_editor.value("m_button_export_items", "STR_NOT_FOUND");
     m_button_import_items = itembox_editor.value("m_button_import_items", "STR_NOT_FOUND");
     m_text_warning_overwrite = itembox_editor.value("m_text_warning_overwrite", "STR_NOT_FOUND");
@@ -889,8 +903,11 @@ void RiseDataEditor::change_language(Language language) {
     m_rarity_text[6] = m_label_rarity + " 7";
     m_rarity_text[7] = m_label_rarity + " 4 (Novice)";
     m_rarity_text[8] = m_label_rarity + " 3 (Kinship)";
-    m_rarity_text[9] = m_label_rarity + R"( 12 (???))";
+    m_rarity_text[9] = m_label_rarity + " 2 (Veteran)";
     m_rarity_text[10] = m_label_rarity + " 2 (Legacy)";
+    m_rarity_text[11] = m_label_rarity + " 8";
+    m_rarity_text[12] = m_label_rarity + " 9";
+    m_rarity_text[13] = m_label_rarity + " 10";
 }
 
 void RiseDataEditor::export_charms(const std::string& to, const std::vector<Charm>& charms) {

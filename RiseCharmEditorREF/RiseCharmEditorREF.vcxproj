@@ -173,6 +173,7 @@
     <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\distance\Levenshtein.hpp" />
     <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\fuzz.hpp" />
     <ClInclude Include="dependencies\rapidfuzz-cpp-1.0.1\rapidfuzz\rapidfuzz_all.hpp" />
+    <ClInclude Include="IllegalItems.h" />
     <ClInclude Include="imgui\font_robotomedium.hpp" />
     <ClInclude Include="imgui\imgui_impl_dx11.h" />
     <ClInclude Include="imgui\imgui_impl_dx12.h" />

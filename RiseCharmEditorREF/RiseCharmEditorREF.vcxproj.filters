@@ -149,6 +149,9 @@
     <ClInclude Include="reframework\utility.h">
       <Filter>Header Files\dependencies\reframework</Filter>
     </ClInclude>
+    <ClInclude Include="IllegalItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

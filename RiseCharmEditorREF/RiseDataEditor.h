@@ -26,8 +26,11 @@ enum class Rarity : uint32_t {
     Rarity7 = 0x10100006,
     Rarity4_Novice = 0x10100007,
     Rarity3_Kinship = 0x10100008,
-    Rarity12 = 0x10100009,
-    Rarity2_Legacy = 0x1010000A
+    Rarity2_Veteran = 0x10100009,
+    Rarity2_Legacy = 0x1010000A,
+    Rarity8 = 0x1010000B,
+    Rarity9 = 0x1010000C,
+    Rarity10 = 0x1010000D
 };
 
 struct Charm {
@@ -210,7 +213,7 @@ private:
     std::string m_text_error_add_charm;
     std::string m_button_sell_charm;
     std::string m_button_ok;
-    std::array<std::string, 11> m_rarity_text;
+    std::array<std::string, 14> m_rarity_text;
     std::string m_label_rarity;
     std::string m_label_skill;
     std::string m_label_level;
@@ -231,6 +234,7 @@ private:
     std::string m_button_add_all;
     std::string m_button_clear_itembox;
     std::string m_button_clear_selected;
+    std::string m_button_delete_illegal;
     std::string m_button_export_items;
     std::string m_button_import_items;
     std::string m_text_warning_overwrite;
