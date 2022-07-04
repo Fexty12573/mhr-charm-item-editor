@@ -311,11 +311,14 @@ void RiseDataEditor::set_imgui_style() {
     m_active_font = m_font_latin_cyrillic;
 }
 
-uint32_t* RiseDataEditor::slot_count_to_slots(const uint32_t counts[3], uint32_t slots[3]) {
-    uint32_t _counts[3] = {counts[0], counts[1], counts[2]};
+uint32_t* RiseDataEditor::slot_count_to_slots(const uint32_t counts[4], uint32_t slots[3]) {
+    uint32_t _counts[4] = {counts[0], counts[1], counts[2], counts[3]};
 
     for (auto i = 0; i < 3; i++) {
-        if (_counts[2]) {
+        if (_counts[3]) {
+            --_counts[3];
+            slots[i] = 4;
+        } else if (_counts[2]) {
             --_counts[2];
             slots[i] = 3;
         } else if (_counts[1]) {
@@ -332,10 +335,11 @@ uint32_t* RiseDataEditor::slot_count_to_slots(const uint32_t counts[3], uint32_t
     return slots;
 }
 
-uint32_t* RiseDataEditor::slots_to_slot_count(const uint32_t slots[3], uint32_t counts[3]) {
+uint32_t* RiseDataEditor::slots_to_slot_count(const uint32_t slots[3], uint32_t counts[4]) {
     counts[0] = (slots[0] == 1) + (slots[1] == 1) + (slots[2] == 1);
     counts[1] = (slots[0] == 2) + (slots[1] == 2) + (slots[2] == 2);
     counts[2] = (slots[0] == 3) + (slots[1] == 3) + (slots[2] == 3);
+    counts[3] = (slots[0] == 4) + (slots[1] == 4) + (slots[2] == 4);
 
     return counts;
 }
@@ -358,11 +362,12 @@ void RiseDataEditor::render_ui_charm_editor() {
         Charm c{};
 
         const auto slotlist = *entry->get_field<API::ManagedObject*>("_TalismanDecoSlotNumList");
-        uint32_t counts[3]{};
+        uint32_t counts[4]{};
 
         counts[0] = utility::call<uint32_t>(slotlist, "get_Item", 1);
         counts[1] = utility::call<uint32_t>(slotlist, "get_Item", 2);
         counts[2] = utility::call<uint32_t>(slotlist, "get_Item", 3);
+        counts[3] = utility::call<uint32_t>(slotlist, "get_Item", 4);
 
         slot_count_to_slots(counts, c.slots);
 
@@ -386,12 +391,13 @@ void RiseDataEditor::render_ui_charm_editor() {
 
         const auto slotlist = *entry->get_field<API::ManagedObject*>("_TalismanDecoSlotNumList");
 
-        uint32_t counts[3]{};
+        uint32_t counts[4]{};
         slots_to_slot_count(charm.slots, counts);
 
         utility::call<>(slotlist, "set_Item", 1, counts[0]);
         utility::call<>(slotlist, "set_Item", 2, counts[1]);
         utility::call<>(slotlist, "set_Item", 3, counts[2]);
+        utility::call<>(slotlist, "set_Item", 4, counts[3]);
 
         const auto skilllist = *entry->get_field<API::ManagedObject*>("_TalismanSkillIdList");
 
@@ -503,7 +509,7 @@ void RiseDataEditor::render_ui_charm_editor() {
 
         ImGui::PushItemWidth(200.0f);
         if (ImGui::BeginCombo(m_label_rarity.c_str(), get_rarity(charm.rarity).c_str())) {
-            for (auto i = 0; i < 11; ++i) {
+            for (auto i = 0; i < m_rarity_text.size(); ++i) {
                 const auto r = static_cast<Rarity>(i | 0x10100000);
 
                 if (ImGui::Selectable(get_rarity(r).c_str(), r == charm.rarity))
@@ -997,13 +1003,13 @@ void RiseDataEditor::change_language_hook(API::VMContext* vmctx, API::ManagedObj
     case Language::JPN:
         rise->m_active_font = rise->m_font_chinese_japanese;
         break;
-    case Language::ENG:
-    case Language::FRE:
-    case Language::ITA:
-    case Language::GER:
-    case Language::SPA:
-    case Language::RUS:
-    case Language::POL:
+    case Language::ENG: [[fallthrough]];
+    case Language::FRE: [[fallthrough]];
+    case Language::ITA: [[fallthrough]];
+    case Language::GER: [[fallthrough]];
+    case Language::SPA: [[fallthrough]];
+    case Language::RUS: [[fallthrough]];
+    case Language::POL: [[fallthrough]];
     case Language::POR:
         rise->m_active_font = rise->m_font_latin_cyrillic;
         break;
