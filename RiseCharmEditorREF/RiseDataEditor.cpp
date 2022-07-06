@@ -208,6 +208,21 @@ bool RiseDataEditor::initialize() {
         }
     }
 
+    if (const auto update_cheat = api->tdb()->find_method("snow.data.EquipmentInventoryData", "updateCheatBitFlag")) {
+        auto result = MH_CreateHook(
+            update_cheat->get_function_raw(), update_cheat_flag_hook, reinterpret_cast<void**>(&m_original_update_cheat_flag));
+        if (result != MH_OK && result != MH_ERROR_ALREADY_CREATED) {
+            OutputDebugStringA("[FEXTY] Failed to create second hook");
+            return false;
+        }
+
+        result = MH_EnableHook(update_cheat->get_function_raw());
+        if (result != MH_OK && result != MH_ERROR_ENABLED) {
+            OutputDebugStringA("[FEXTY] Failed to enable second hook");
+            return false;
+        }
+    }
+
     change_language(Language::ENG);
     OutputDebugStringA("[FEXTY] Charm Editor Initialized");
 
@@ -461,6 +476,7 @@ void RiseDataEditor::render_ui_charm_editor() {
 
         auto& charm = charms[m_selected_charm];
         bool was_sold = false;
+        bool make_legal = false;
 
         ImGui::SameLine();
         if (ImGui::Button(m_button_add_empty_charm.c_str(), {ImGui::CalcTextSize(m_button_add_empty_charm.c_str()).x + 5, 0})) {
@@ -543,10 +559,24 @@ void RiseDataEditor::render_ui_charm_editor() {
         ImGui::SliderInt((m_label_slot + " 2").c_str(), reinterpret_cast<int*>(&charm.slots[1]), 0, static_cast<int>(charm.slots[0]));
         ImGui::SliderInt((m_label_slot + " 3").c_str(), reinterpret_cast<int*>(&charm.slots[2]), 0, static_cast<int>(charm.slots[1]));
 
+        ImGui::Separator();
+        if (ImGui::Button(m_button_make_legal.c_str())) {
+            make_legal = true;
+        }
+
+        ImGui::SameLine();
+        ImGui::Checkbox(m_checkbox_disable_sanity_check.c_str(), &m_disable_sanity_check);
+
         ImGui::PopItemWidth();
 
         if (!was_sold) {
-            set_charm(utility::call<API::ManagedObject*>(m_inv_list, "get_Item", charm.box_slot), charm);
+            const auto slot = utility::call<API::ManagedObject*>(m_inv_list, "get_Item", charm.box_slot);
+            if (make_legal) {
+                const auto cheat_flag = *slot->get_field<API::ManagedObject*>("<CheatBitFlag>k__BackingField");
+                utility::call(cheat_flag, "clear");
+            }
+
+            set_charm(slot, charm);
         }
     } else {
         ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(1.0f, 0.3f, 0.3f, 1.0f));
@@ -572,6 +602,10 @@ void RiseDataEditor::render_ui_player_editor() const {
     ImGui::NewLine();
     ImGui::InputInt(m_label_hunter_rank.c_str(), savedata->get_field<int32_t>("_HunterRank"));
     ImGui::InputScalar(m_label_hr_points.c_str(), ImGuiDataType_U32, savedata->get_field<uint32_t>("_HunterRankPoint"), &step, &step_fast);
+
+    ImGui::NewLine();
+    ImGui::InputInt(m_label_master_rank.c_str(), savedata->get_field<int32_t>("_MasterRank"));
+    ImGui::InputScalar(m_label_mr_points.c_str(), ImGuiDataType_U32, savedata->get_field<uint32_t>("_MasterRankPoint"), &step, &step_fast);
 }
 
 void RiseDataEditor::render_ui_item_editor() {
@@ -579,7 +613,12 @@ void RiseDataEditor::render_ui_item_editor() {
         const auto str = utility::call<SystemString*>(m_get_item_name, id);
         return utility::narrow(str->data);
     };
-
+    auto to_lower = [](const std::string& s) {
+        std::string out(s.size(), '\0');
+        std::ranges::transform(s, out.begin(), ::tolower);
+        return out;
+    };
+    
     const auto items = *m_item_box->get_field<API::ManagedObject*>("_InventoryList");
     constexpr uint32_t step = 1, step_l = 10;
     bool clear_inv = false;
@@ -741,8 +780,8 @@ void RiseDataEditor::render_ui_item_editor() {
                     const bool is_selected = i == *id;
                     
                     const auto name = get_itemname(j);
-                    if (m_item_filter.empty() || name.contains(m_item_filter)) {
-                        if (ImGui::Selectable(get_itemname(j).c_str(), is_selected)) {
+                    if (m_item_filter.empty() || to_lower(name).contains(to_lower(m_item_filter))) {
+                        if (ImGui::Selectable(name.c_str(), is_selected)) {
                             *id = j;
                         }
 
@@ -868,6 +907,8 @@ void RiseDataEditor::change_language(Language language) {
     m_button_sell_charm = charm_editor.value("m_button_sell_charm", "STR_NOT_FOUND");
     m_button_export_charms = charm_editor.value("m_button_export_charms", "STR_NOT_FOUND");
     m_button_import_charms = charm_editor.value("m_button_import_charms", "STR_NOT_FOUND");
+    m_button_make_legal = charm_editor.value("m_button_make_legal", "STR_NOT_FOUND");
+    m_checkbox_disable_sanity_check = charm_editor.value("m_checkbox_disable_sanity_check", "STR_NOT_FOUND");
     m_button_ok = charm_editor.value("m_button_ok", "STR_NOT_FOUND");
     m_label_rarity = charm_editor.value("m_label_rarity", "STR_NOT_FOUND");
     m_label_skill = charm_editor.value("m_label_skill", "STR_NOT_FOUND");
@@ -881,6 +922,8 @@ void RiseDataEditor::change_language(Language language) {
     m_text_warning_hr = player_editor.value("m_text_warning_hr", "STR_NOT_FOUND");
     m_label_hunter_rank = player_editor.value("m_label_hunter_rank", "STR_NOT_FOUND");
     m_label_hr_points = player_editor.value("m_label_hr_points", "STR_NOT_FOUND");
+    m_label_master_rank = player_editor.value("m_label_master_rank", "STR_NOT_FOUND");
+    m_label_mr_points = player_editor.value("m_label_mr_points", "STR_NOT_FOUND"); 
 
     m_button_add_all = itembox_editor.value("m_button_add_all", "STR_NOT_FOUND");
     m_button_clear_itembox = itembox_editor.value("m_button_clear_itembox", "STR_NOT_FOUND");
@@ -962,9 +1005,9 @@ std::vector<Charm> RiseDataEditor::import_charms(const std::string& from) {
     for (const auto& charm : j) {
         charms.push_back({.type = EquipmentType::Talisman,
             .box_slot = 0,
-            .slots = {charm["Slots"][0], charm["Slots"][1]},
+            .slots = {charm["Slots"][0], charm["Slots"][1], charm["Slots"][2]},
             .skills = {charm["Skills"][0], charm["Skills"][1]},
-            .skill_levels = {charm["SkillLevels"][0], charm["SkillLevels"][0]},
+            .skill_levels = {charm["SkillLevels"][0], charm["SkillLevels"][1]},
             .rarity = charm.value("Rarity", Rarity::Rarity1)
         });
     }
@@ -1049,6 +1092,16 @@ void RiseDataEditor::action_hook(void* vmctx, API::ManagedObject* this_, void* a
     }
 
     return rise->m_original_action_func(vmctx, this_, action_arg_, category, action);
+}
+
+void RiseDataEditor::update_cheat_flag_hook(void* vmctx, reframework::API::ManagedObject* this_) {
+    const auto editor = get();
+
+    if (editor->m_disable_sanity_check) {
+        return;
+    }
+
+    return editor->m_original_update_cheat_flag(vmctx, this_);
 }
 
 std::string Charm::get_name(const std::function<std::string(uint32_t)>& skill_name_getter) const {

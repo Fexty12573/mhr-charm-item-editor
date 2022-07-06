@@ -98,6 +98,7 @@ private:
     static void change_language_hook(
         reframework::API::VMContext* vmctx, reframework::API::ManagedObject* this_, Language language, bool fade, void* _);
     static void action_hook(void* vmctx, reframework::API::ManagedObject* this_, void* action_arg_, uint8_t category, uint16_t action);
+    static void update_cheat_flag_hook(void* vmctx, reframework::API::ManagedObject* this_);
 
 private:
     reframework::API::ManagedObject* m_data_manager{};
@@ -120,6 +121,7 @@ private:
     uint32_t m_max_item_id = 0;
     uint32_t m_invalid_item = 0;
     bool m_initialized = false;
+    bool m_disable_sanity_check = false;
 
     uint32_t m_selected_charm = 0;
     std::string m_item_filter{};
@@ -127,6 +129,7 @@ private:
     void* m_action_func = reinterpret_cast<void*>(0x140c087b0);
     void (*m_original_action_func)(void*, void*, void*, uint8_t, uint16_t){};
     void (*m_original_change_language)(reframework::API::VMContext*, reframework::API::ManagedObject*, Language, bool, void*){};
+    void (*m_original_update_cheat_flag)(void*, reframework::API::ManagedObject*){};
 
     ImFont* m_font_latin_cyrillic{};
     ImFont* m_font_chinese_japanese{};
@@ -212,6 +215,8 @@ private:
     std::string m_title_error;
     std::string m_text_error_add_charm;
     std::string m_button_sell_charm;
+    std::string m_button_make_legal;
+    std::string m_checkbox_disable_sanity_check;
     std::string m_button_ok;
     std::array<std::string, 14> m_rarity_text;
     std::string m_label_rarity;
@@ -229,6 +234,8 @@ private:
     std::string m_text_warning_hr;
     std::string m_label_hunter_rank;
     std::string m_label_hr_points;
+    std::string m_label_master_rank;
+    std::string m_label_mr_points;
 #pragma endregion
 #pragma region ItemboxEditor
     std::string m_button_add_all;
