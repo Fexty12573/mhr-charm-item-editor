@@ -323,7 +323,41 @@ void RiseDataEditor::set_imgui_style() {
 
     fonts->Build();
 
-    m_active_font = m_font_latin_cyrillic;
+    switch (m_active_language) {
+    case Language::JPN:
+        m_active_font = m_font_chinese_japanese;
+        break;
+    case Language::ENG:
+        [[fallthrough]];
+    case Language::FRE:
+        [[fallthrough]];
+    case Language::ITA:
+        [[fallthrough]];
+    case Language::GER:
+        [[fallthrough]];
+    case Language::SPA:
+        [[fallthrough]];
+    case Language::RUS:
+        [[fallthrough]];
+    case Language::POL:
+        [[fallthrough]];
+    case Language::POR:
+        m_active_font = m_font_latin_cyrillic;
+        break;
+    case Language::KOR:
+        m_active_font = m_font_korean;
+        break;
+    case Language::ZHT:
+    case Language::ZHS:
+        m_active_font = m_font_chinese_japanese;
+        break;
+    case Language::ARA:
+        m_active_font = m_font_arabic;
+        break;
+    default:
+        m_active_font = m_font_latin_cyrillic;
+        break;
+    }
 }
 
 uint32_t* RiseDataEditor::slot_count_to_slots(const uint32_t counts[4], uint32_t slots[3]) {
