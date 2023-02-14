@@ -640,6 +640,10 @@ void RiseDataEditor::render_ui_player_editor() const {
     ImGui::NewLine();
     ImGui::InputInt(m_label_master_rank.c_str(), savedata->get_field<int32_t>("_MasterRank"));
     ImGui::InputScalar(m_label_mr_points.c_str(), ImGuiDataType_U32, savedata->get_field<uint32_t>("_MasterRankPoint"), &step, &step_fast);
+
+    ImGui::NewLine();
+    ImGui::InputInt(m_label_mystery_level.c_str(), savedata->get_field<int32_t>("_MysteryResearchLevel"));
+    ImGui::InputScalar(m_label_ml_points.c_str(), ImGuiDataType_U32, savedata->get_field<uint32_t>("_MysteryResearchPoint"), &step, &step_fast);
 }
 
 void RiseDataEditor::render_ui_item_editor() {
@@ -958,6 +962,8 @@ void RiseDataEditor::change_language(Language language) {
     m_label_hr_points = player_editor.value("m_label_hr_points", "STR_NOT_FOUND");
     m_label_master_rank = player_editor.value("m_label_master_rank", "STR_NOT_FOUND");
     m_label_mr_points = player_editor.value("m_label_mr_points", "STR_NOT_FOUND"); 
+    m_label_mystery_level = player_editor.value("m_label_mystery_level", "STR_NOT_FOUND");
+    m_label_ml_points = player_editor.value("m_label_ml_points", "STR_NOT_FOUND"); 
 
     m_button_add_all = itembox_editor.value("m_button_add_all", "STR_NOT_FOUND");
     m_button_clear_itembox = itembox_editor.value("m_button_clear_itembox", "STR_NOT_FOUND");
