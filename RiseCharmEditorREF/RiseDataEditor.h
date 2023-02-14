@@ -236,6 +236,8 @@ private:
     std::string m_label_hr_points;
     std::string m_label_master_rank;
     std::string m_label_mr_points;
+    std::string m_label_mystery_level;
+    std::string m_label_ml_points;
 #pragma endregion
 #pragma region ItemboxEditor
     std::string m_button_add_all;
